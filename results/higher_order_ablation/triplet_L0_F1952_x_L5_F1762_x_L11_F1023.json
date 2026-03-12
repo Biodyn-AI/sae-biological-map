@@ -1,0 +1,65 @@
+{
+  "triplet_id": "L0_F1952_x_L5_F1762_x_L11_F1023",
+  "feature_A": {
+    "layer": 0,
+    "idx": 1952,
+    "label": "Cytoskeleton-Dependent Cytokinesis (GO:0061640)",
+    "n_edges": 1548
+  },
+  "feature_B": {
+    "layer": 5,
+    "idx": 1762,
+    "label": "G2/M Transition Of Mitotic Cell Cycle (GO:0000086)",
+    "n_edges": 4703
+  },
+  "feature_C": {
+    "layer": 11,
+    "idx": 1023,
+    "label": "Attachment Of Mitotic Spindle Microtubules To Kinetochore (GO:0051315)",
+    "n_edges": 3072
+  },
+  "pathway": "mitosis",
+  "triplet_type": "same_pathway",
+  "target_layer": 17,
+  "n_cells": 200,
+  "n_active": {
+    "A": 200,
+    "B": 200,
+    "C": 200,
+    "AB": 200,
+    "AC": 200,
+    "BC": 200,
+    "ABC": 200
+  },
+  "n_significant": {
+    "A": 26,
+    "B": 307,
+    "C": 491,
+    "AB": 333,
+    "AC": 493,
+    "BC": 648,
+    "ABC": 661,
+    "any": 815
+  },
+  "pairwise_ratios": {
+    "AB": 0.8431258235010647,
+    "AC": 0.848292265147867,
+    "BC": 0.6521885157038497
+  },
+  "threeway_ratio": 0.5846853556521414,
+  "n_subadditive_3way": 775,
+  "n_additive_3way": 40,
+  "n_superadditive_3way": 0,
+  "higher_order_interaction_median": 0.09082747395069102,
+  "marginal_C_given_AB_median": 0.18382406468504292,
+  "mean_abs_d": {
+    "A": 0.08806180389404461,
+    "B": 0.21087830605695135,
+    "C": 0.24992357961251688,
+    "AB": 0.21058725718519922,
+    "AC": 0.24706281444511496,
+    "BC": 0.27805204190821137,
+    "ABC": 0.2763669568615451
+  },
+  "elapsed_seconds": 3228.453238964081
+}

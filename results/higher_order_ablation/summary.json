@@ -1,0 +1,530 @@
+{
+  "n_triplets": 8,
+  "n_same_pathway": 7,
+  "n_cross_pathway": 1,
+  "same_pathway_3way_ratio": 0.5943094736252856,
+  "cross_pathway_3way_ratio": 0.5560436231178553,
+  "total_elapsed_min": 388.1877991954486,
+  "per_triplet_results": [
+    {
+      "triplet_id": "L0_F2905_x_L5_F1226_x_L11_F3001",
+      "feature_A": {
+        "layer": 0,
+        "idx": 2905,
+        "label": "Golgi Organization (GO:0007030)",
+        "n_edges": 8028
+      },
+      "feature_B": {
+        "layer": 5,
+        "idx": 1226,
+        "label": "Golgi Organization (GO:0007030)",
+        "n_edges": 1345
+      },
+      "feature_C": {
+        "layer": 11,
+        "idx": 3001,
+        "label": "Intracellular Protein Transport (GO:0006886)",
+        "n_edges": 1242
+      },
+      "pathway": "vesicle",
+      "triplet_type": "same_pathway",
+      "target_layer": 17,
+      "n_cells": 200,
+      "n_active": {
+        "A": 200,
+        "B": 200,
+        "C": 200,
+        "AB": 200,
+        "AC": 200,
+        "BC": 200,
+        "ABC": 200
+      },
+      "n_significant": {
+        "A": 297,
+        "B": 44,
+        "C": 185,
+        "AB": 326,
+        "AC": 419,
+        "BC": 200,
+        "ABC": 442,
+        "any": 621
+      },
+      "pairwise_ratios": {
+        "AB": 0.7416902929610313,
+        "AC": 0.7130760217695042,
+        "BC": 0.7413998975803273
+      },
+      "threeway_ratio": 0.6068806464824997,
+      "n_subadditive_3way": 592,
+      "n_additive_3way": 29,
+      "n_superadditive_3way": 0,
+      "higher_order_interaction_median": 0.14710503384843943,
+      "marginal_C_given_AB_median": 0.07204758967300628,
+      "mean_abs_d": {
+        "A": 0.190874797325251,
+        "B": 0.10462542361415614,
+        "C": 0.19058296657534587,
+        "AB": 0.19836937576195243,
+        "AC": 0.228835317486404,
+        "BC": 0.19491622274917486,
+        "ABC": 0.23351361459557612
+      },
+      "elapsed_seconds": 2965.119484901428
+    },
+    {
+      "triplet_id": "L0_F2905_x_L5_F1226_x_L11_F157",
+      "feature_A": {
+        "layer": 0,
+        "idx": 2905,
+        "label": "Golgi Organization (GO:0007030)",
+        "n_edges": 8028
+      },
+      "feature_B": {
+        "layer": 5,
+        "idx": 1226,
+        "label": "Golgi Organization (GO:0007030)",
+        "n_edges": 1345
+      },
+      "feature_C": {
+        "layer": 11,
+        "idx": 157,
+        "label": "Golgi Vesicle Transport (GO:0048193)",
+        "n_edges": 1072
+      },
+      "pathway": "vesicle",
+      "triplet_type": "same_pathway",
+      "target_layer": 17,
+      "n_cells": 200,
+      "n_active": {
+        "A": 200,
+        "B": 200,
+        "C": 200,
+        "AB": 200,
+        "AC": 200,
+        "BC": 200,
+        "ABC": 200
+      },
+      "n_significant": {
+        "A": 297,
+        "B": 44,
+        "C": 151,
+        "AB": 326,
+        "AC": 380,
+        "BC": 157,
+        "ABC": 401,
+        "any": 530
+      },
+      "pairwise_ratios": {
+        "AB": 0.7540056667097104,
+        "AC": 0.7061422058018141,
+        "BC": 0.7105533155948549
+      },
+      "threeway_ratio": 0.593158361832846,
+      "n_subadditive_3way": 510,
+      "n_additive_3way": 20,
+      "n_superadditive_3way": 0,
+      "higher_order_interaction_median": 0.14960186841921685,
+      "marginal_C_given_AB_median": 0.04519572741071018,
+      "mean_abs_d": {
+        "A": 0.190874797325251,
+        "B": 0.10462542361415614,
+        "C": 0.153524051202433,
+        "AB": 0.19836937576195243,
+        "AC": 0.21359343484160212,
+        "BC": 0.1628143348542639,
+        "ABC": 0.21984986981570634
+      },
+      "elapsed_seconds": 3331.034884929657
+    },
+    {
+      "triplet_id": "L0_F2905_x_L5_F1226_x_L11_F2025",
+      "feature_A": {
+        "layer": 0,
+        "idx": 2905,
+        "label": "Golgi Organization (GO:0007030)",
+        "n_edges": 8028
+      },
+      "feature_B": {
+        "layer": 5,
+        "idx": 1226,
+        "label": "Golgi Organization (GO:0007030)",
+        "n_edges": 1345
+      },
+      "feature_C": {
+        "layer": 11,
+        "idx": 2025,
+        "label": "Golgi Vesicle Transport (GO:0048193)",
+        "n_edges": 641
+      },
+      "pathway": "vesicle",
+      "triplet_type": "same_pathway",
+      "target_layer": 17,
+      "n_cells": 200,
+      "n_active": {
+        "A": 200,
+        "B": 200,
+        "C": 200,
+        "AB": 200,
+        "AC": 200,
+        "BC": 200,
+        "ABC": 200
+      },
+      "n_significant": {
+        "A": 297,
+        "B": 44,
+        "C": 79,
+        "AB": 326,
+        "AC": 336,
+        "BC": 110,
+        "ABC": 358,
+        "any": 476
+      },
+      "pairwise_ratios": {
+        "AB": 0.7554685579217051,
+        "AC": 0.7457840499922519,
+        "BC": 0.7039609569776811
+      },
+      "threeway_ratio": 0.6188619985378245,
+      "n_subadditive_3way": 445,
+      "n_additive_3way": 31,
+      "n_superadditive_3way": 0,
+      "higher_order_interaction_median": 0.14083724711651743,
+      "marginal_C_given_AB_median": 0.012905990865232322,
+      "mean_abs_d": {
+        "A": 0.190874797325251,
+        "B": 0.10462542361415614,
+        "C": 0.12740775573419316,
+        "AB": 0.19836937576195243,
+        "AC": 0.19699421635557066,
+        "BC": 0.14078037369680366,
+        "ABC": 0.20440459062274752
+      },
+      "elapsed_seconds": 2815.4202070236206
+    },
+    {
+      "triplet_id": "L0_F1952_x_L5_F1762_x_L11_F1023",
+      "feature_A": {
+        "layer": 0,
+        "idx": 1952,
+        "label": "Cytoskeleton-Dependent Cytokinesis (GO:0061640)",
+        "n_edges": 1548
+      },
+      "feature_B": {
+        "layer": 5,
+        "idx": 1762,
+        "label": "G2/M Transition Of Mitotic Cell Cycle (GO:0000086)",
+        "n_edges": 4703
+      },
+      "feature_C": {
+        "layer": 11,
+        "idx": 1023,
+        "label": "Attachment Of Mitotic Spindle Microtubules To Kinetochore (GO:0051315)",
+        "n_edges": 3072
+      },
+      "pathway": "mitosis",
+      "triplet_type": "same_pathway",
+      "target_layer": 17,
+      "n_cells": 200,
+      "n_active": {
+        "A": 200,
+        "B": 200,
+        "C": 200,
+        "AB": 200,
+        "AC": 200,
+        "BC": 200,
+        "ABC": 200
+      },
+      "n_significant": {
+        "A": 26,
+        "B": 307,
+        "C": 491,
+        "AB": 333,
+        "AC": 493,
+        "BC": 648,
+        "ABC": 661,
+        "any": 815
+      },
+      "pairwise_ratios": {
+        "AB": 0.8431258235010647,
+        "AC": 0.848292265147867,
+        "BC": 0.6521885157038497
+      },
+      "threeway_ratio": 0.5846853556521414,
+      "n_subadditive_3way": 775,
+      "n_additive_3way": 40,
+      "n_superadditive_3way": 0,
+      "higher_order_interaction_median": 0.09082747395069102,
+      "marginal_C_given_AB_median": 0.18382406468504292,
+      "mean_abs_d": {
+        "A": 0.08806180389404461,
+        "B": 0.21087830605695135,
+        "C": 0.24992357961251688,
+        "AB": 0.21058725718519922,
+        "AC": 0.24706281444511496,
+        "BC": 0.27805204190821137,
+        "ABC": 0.2763669568615451
+      },
+      "elapsed_seconds": 3228.453238964081
+    },
+    {
+      "triplet_id": "L0_F1952_x_L5_F1762_x_L11_F747",
+      "feature_A": {
+        "layer": 0,
+        "idx": 1952,
+        "label": "Cytoskeleton-Dependent Cytokinesis (GO:0061640)",
+        "n_edges": 1548
+      },
+      "feature_B": {
+        "layer": 5,
+        "idx": 1762,
+        "label": "G2/M Transition Of Mitotic Cell Cycle (GO:0000086)",
+        "n_edges": 4703
+      },
+      "feature_C": {
+        "layer": 11,
+        "idx": 747,
+        "label": "Cytoskeleton-Dependent Cytokinesis (GO:0061640)",
+        "n_edges": 2837
+      },
+      "pathway": "mitosis",
+      "triplet_type": "same_pathway",
+      "target_layer": 17,
+      "n_cells": 200,
+      "n_active": {
+        "A": 200,
+        "B": 200,
+        "C": 200,
+        "AB": 200,
+        "AC": 200,
+        "BC": 200,
+        "ABC": 200
+      },
+      "n_significant": {
+        "A": 26,
+        "B": 307,
+        "C": 439,
+        "AB": 333,
+        "AC": 439,
+        "BC": 609,
+        "ABC": 621,
+        "any": 790
+      },
+      "pairwise_ratios": {
+        "AB": 0.8355105402781666,
+        "AC": 0.8402068857660177,
+        "BC": 0.6590817243735995
+      },
+      "threeway_ratio": 0.5943094736252856,
+      "n_subadditive_3way": 754,
+      "n_additive_3way": 36,
+      "n_superadditive_3way": 0,
+      "higher_order_interaction_median": 0.09903767616975734,
+      "marginal_C_given_AB_median": 0.16247661428582053,
+      "mean_abs_d": {
+        "A": 0.08806180389404461,
+        "B": 0.21087830605695135,
+        "C": 0.23952483369480623,
+        "AB": 0.21058725718519922,
+        "AC": 0.23494148823756522,
+        "BC": 0.27039175330795523,
+        "ABC": 0.2682638211182929
+      },
+      "elapsed_seconds": 2989.199156999588
+    },
+    {
+      "triplet_id": "L0_F3402_x_L5_F4432_x_L11_F3016",
+      "feature_A": {
+        "layer": 0,
+        "idx": 3402,
+        "label": "Cholesterol Biosynthetic Process (GO:0006695)",
+        "n_edges": 5096
+      },
+      "feature_B": {
+        "layer": 5,
+        "idx": 4432,
+        "label": "Cholesterol Biosynthetic Process (GO:0006695)",
+        "n_edges": 3267
+      },
+      "feature_C": {
+        "layer": 11,
+        "idx": 3016,
+        "label": "Aerobic Electron Transport Chain (GO:0019646)",
+        "n_edges": 685
+      },
+      "pathway": "metabolism",
+      "triplet_type": "same_pathway",
+      "target_layer": 17,
+      "n_cells": 200,
+      "n_active": {
+        "A": 200,
+        "B": 200,
+        "C": 200,
+        "AB": 200,
+        "AC": 200,
+        "BC": 200,
+        "ABC": 200
+      },
+      "n_significant": {
+        "A": 184,
+        "B": 220,
+        "C": 75,
+        "AB": 282,
+        "AC": 248,
+        "BC": 265,
+        "ABC": 339,
+        "any": 446
+      },
+      "pairwise_ratios": {
+        "AB": 0.6185189191318514,
+        "AC": 0.7853567812938985,
+        "BC": 0.7858021216775775
+      },
+      "threeway_ratio": 0.5481004314703573,
+      "n_subadditive_3way": 430,
+      "n_additive_3way": 14,
+      "n_superadditive_3way": 2,
+      "higher_order_interaction_median": 0.1504082489930974,
+      "marginal_C_given_AB_median": 0.006235459519379982,
+      "mean_abs_d": {
+        "A": 0.1639953759394935,
+        "B": 0.17425275353341022,
+        "C": 0.1233645720214876,
+        "AB": 0.19936702493826294,
+        "AC": 0.18735331236580288,
+        "BC": 0.19853095137701054,
+        "ABC": 0.21587780202258852
+      },
+      "elapsed_seconds": 2481.58984208107
+    },
+    {
+      "triplet_id": "L0_F1450_x_L5_F4432_x_L11_F3016",
+      "feature_A": {
+        "layer": 0,
+        "idx": 1450,
+        "label": "Aerobic Electron Transport Chain (GO:0019646)",
+        "n_edges": 2813
+      },
+      "feature_B": {
+        "layer": 5,
+        "idx": 4432,
+        "label": "Cholesterol Biosynthetic Process (GO:0006695)",
+        "n_edges": 3267
+      },
+      "feature_C": {
+        "layer": 11,
+        "idx": 3016,
+        "label": "Aerobic Electron Transport Chain (GO:0019646)",
+        "n_edges": 685
+      },
+      "pathway": "metabolism",
+      "triplet_type": "same_pathway",
+      "target_layer": 17,
+      "n_cells": 200,
+      "n_active": {
+        "A": 200,
+        "B": 200,
+        "C": 200,
+        "AB": 200,
+        "AC": 200,
+        "BC": 200,
+        "ABC": 200
+      },
+      "n_significant": {
+        "A": 45,
+        "B": 220,
+        "C": 75,
+        "AB": 275,
+        "AC": 115,
+        "BC": 265,
+        "ABC": 322,
+        "any": 452
+      },
+      "pairwise_ratios": {
+        "AB": 0.8209354335056014,
+        "AC": 0.6991785827066301,
+        "BC": 0.7873517390465137
+      },
+      "threeway_ratio": 0.6686758393910134,
+      "n_subadditive_3way": 358,
+      "n_additive_3way": 93,
+      "n_superadditive_3way": 1,
+      "higher_order_interaction_median": 0.11941352386391749,
+      "marginal_C_given_AB_median": 0.011672210685670037,
+      "mean_abs_d": {
+        "A": 0.11199853625582487,
+        "B": 0.17425275353341022,
+        "C": 0.1233645720214876,
+        "AB": 0.1956735726777297,
+        "AC": 0.1415027448942031,
+        "BC": 0.19853095137701054,
+        "ABC": 0.21043349398610264
+      },
+      "elapsed_seconds": 2750.190332889557
+    },
+    {
+      "triplet_id": "L0_F1716_x_L5_F1762_x_L11_F1023",
+      "feature_A": {
+        "layer": 0,
+        "idx": 1716,
+        "label": "DNA Damage Response (GO:0006974)",
+        "n_edges": 2659
+      },
+      "feature_B": {
+        "layer": 5,
+        "idx": 1762,
+        "label": "G2/M Transition Of Mitotic Cell Cycle (GO:0000086)",
+        "n_edges": 4703
+      },
+      "feature_C": {
+        "layer": 11,
+        "idx": 1023,
+        "label": "Attachment Of Mitotic Spindle Microtubules To Kinetochore (GO:0051315)",
+        "n_edges": 3072
+      },
+      "pathway": "ddr_x_mitosis_x_mitosis",
+      "triplet_type": "cross_pathway",
+      "target_layer": 17,
+      "n_cells": 200,
+      "n_active": {
+        "A": 200,
+        "B": 200,
+        "C": 200,
+        "AB": 200,
+        "AC": 200,
+        "BC": 200,
+        "ABC": 200
+      },
+      "n_significant": {
+        "A": 49,
+        "B": 307,
+        "C": 491,
+        "AB": 343,
+        "AC": 509,
+        "BC": 648,
+        "ABC": 674,
+        "any": 870
+      },
+      "pairwise_ratios": {
+        "AB": 0.7699452418120212,
+        "AC": 0.7865496744210076,
+        "BC": 0.652455955407466
+      },
+      "threeway_ratio": 0.5560436231178553,
+      "n_subadditive_3way": 839,
+      "n_additive_3way": 27,
+      "n_superadditive_3way": 4,
+      "higher_order_interaction_median": 0.13724572049907727,
+      "marginal_C_given_AB_median": 0.17206513567870688,
+      "mean_abs_d": {
+        "A": 0.11911106040724939,
+        "B": 0.21087830605695135,
+        "C": 0.24992357961251688,
+        "AB": 0.2115014754396759,
+        "AC": 0.2469308972146164,
+        "BC": 0.27805204190821137,
+        "ABC": 0.2756804913986434
+      },
+      "elapsed_seconds": 2730.260803937912
+    }
+  ]
+}

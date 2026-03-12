@@ -1,0 +1,65 @@
+{
+  "triplet_id": "L0_F2905_x_L5_F1226_x_L11_F157",
+  "feature_A": {
+    "layer": 0,
+    "idx": 2905,
+    "label": "Golgi Organization (GO:0007030)",
+    "n_edges": 8028
+  },
+  "feature_B": {
+    "layer": 5,
+    "idx": 1226,
+    "label": "Golgi Organization (GO:0007030)",
+    "n_edges": 1345
+  },
+  "feature_C": {
+    "layer": 11,
+    "idx": 157,
+    "label": "Golgi Vesicle Transport (GO:0048193)",
+    "n_edges": 1072
+  },
+  "pathway": "vesicle",
+  "triplet_type": "same_pathway",
+  "target_layer": 17,
+  "n_cells": 200,
+  "n_active": {
+    "A": 200,
+    "B": 200,
+    "C": 200,
+    "AB": 200,
+    "AC": 200,
+    "BC": 200,
+    "ABC": 200
+  },
+  "n_significant": {
+    "A": 297,
+    "B": 44,
+    "C": 151,
+    "AB": 326,
+    "AC": 380,
+    "BC": 157,
+    "ABC": 401,
+    "any": 530
+  },
+  "pairwise_ratios": {
+    "AB": 0.7540056667097104,
+    "AC": 0.7061422058018141,
+    "BC": 0.7105533155948549
+  },
+  "threeway_ratio": 0.593158361832846,
+  "n_subadditive_3way": 510,
+  "n_additive_3way": 20,
+  "n_superadditive_3way": 0,
+  "higher_order_interaction_median": 0.14960186841921685,
+  "marginal_C_given_AB_median": 0.04519572741071018,
+  "mean_abs_d": {
+    "A": 0.190874797325251,
+    "B": 0.10462542361415614,
+    "C": 0.153524051202433,
+    "AB": 0.19836937576195243,
+    "AC": 0.21359343484160212,
+    "BC": 0.1628143348542639,
+    "ABC": 0.21984986981570634
+  },
+  "elapsed_seconds": 3331.034884929657
+}

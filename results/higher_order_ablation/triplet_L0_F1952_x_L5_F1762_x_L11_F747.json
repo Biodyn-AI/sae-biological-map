@@ -1,0 +1,65 @@
+{
+  "triplet_id": "L0_F1952_x_L5_F1762_x_L11_F747",
+  "feature_A": {
+    "layer": 0,
+    "idx": 1952,
+    "label": "Cytoskeleton-Dependent Cytokinesis (GO:0061640)",
+    "n_edges": 1548
+  },
+  "feature_B": {
+    "layer": 5,
+    "idx": 1762,
+    "label": "G2/M Transition Of Mitotic Cell Cycle (GO:0000086)",
+    "n_edges": 4703
+  },
+  "feature_C": {
+    "layer": 11,
+    "idx": 747,
+    "label": "Cytoskeleton-Dependent Cytokinesis (GO:0061640)",
+    "n_edges": 2837
+  },
+  "pathway": "mitosis",
+  "triplet_type": "same_pathway",
+  "target_layer": 17,
+  "n_cells": 200,
+  "n_active": {
+    "A": 200,
+    "B": 200,
+    "C": 200,
+    "AB": 200,
+    "AC": 200,
+    "BC": 200,
+    "ABC": 200
+  },
+  "n_significant": {
+    "A": 26,
+    "B": 307,
+    "C": 439,
+    "AB": 333,
+    "AC": 439,
+    "BC": 609,
+    "ABC": 621,
+    "any": 790
+  },
+  "pairwise_ratios": {
+    "AB": 0.8355105402781666,
+    "AC": 0.8402068857660177,
+    "BC": 0.6590817243735995
+  },
+  "threeway_ratio": 0.5943094736252856,
+  "n_subadditive_3way": 754,
+  "n_additive_3way": 36,
+  "n_superadditive_3way": 0,
+  "higher_order_interaction_median": 0.09903767616975734,
+  "marginal_C_given_AB_median": 0.16247661428582053,
+  "mean_abs_d": {
+    "A": 0.08806180389404461,
+    "B": 0.21087830605695135,
+    "C": 0.23952483369480623,
+    "AB": 0.21058725718519922,
+    "AC": 0.23494148823756522,
+    "BC": 0.27039175330795523,
+    "ABC": 0.2682638211182929
+  },
+  "elapsed_seconds": 2989.199156999588
+}

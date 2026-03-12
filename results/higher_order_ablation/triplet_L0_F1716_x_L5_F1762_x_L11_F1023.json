@@ -1,0 +1,65 @@
+{
+  "triplet_id": "L0_F1716_x_L5_F1762_x_L11_F1023",
+  "feature_A": {
+    "layer": 0,
+    "idx": 1716,
+    "label": "DNA Damage Response (GO:0006974)",
+    "n_edges": 2659
+  },
+  "feature_B": {
+    "layer": 5,
+    "idx": 1762,
+    "label": "G2/M Transition Of Mitotic Cell Cycle (GO:0000086)",
+    "n_edges": 4703
+  },
+  "feature_C": {
+    "layer": 11,
+    "idx": 1023,
+    "label": "Attachment Of Mitotic Spindle Microtubules To Kinetochore (GO:0051315)",
+    "n_edges": 3072
+  },
+  "pathway": "ddr_x_mitosis_x_mitosis",
+  "triplet_type": "cross_pathway",
+  "target_layer": 17,
+  "n_cells": 200,
+  "n_active": {
+    "A": 200,
+    "B": 200,
+    "C": 200,
+    "AB": 200,
+    "AC": 200,
+    "BC": 200,
+    "ABC": 200
+  },
+  "n_significant": {
+    "A": 49,
+    "B": 307,
+    "C": 491,
+    "AB": 343,
+    "AC": 509,
+    "BC": 648,
+    "ABC": 674,
+    "any": 870
+  },
+  "pairwise_ratios": {
+    "AB": 0.7699452418120212,
+    "AC": 0.7865496744210076,
+    "BC": 0.652455955407466
+  },
+  "threeway_ratio": 0.5560436231178553,
+  "n_subadditive_3way": 839,
+  "n_additive_3way": 27,
+  "n_superadditive_3way": 4,
+  "higher_order_interaction_median": 0.13724572049907727,
+  "marginal_C_given_AB_median": 0.17206513567870688,
+  "mean_abs_d": {
+    "A": 0.11911106040724939,
+    "B": 0.21087830605695135,
+    "C": 0.24992357961251688,
+    "AB": 0.2115014754396759,
+    "AC": 0.2469308972146164,
+    "BC": 0.27805204190821137,
+    "ABC": 0.2756804913986434
+  },
+  "elapsed_seconds": 2730.260803937912
+}

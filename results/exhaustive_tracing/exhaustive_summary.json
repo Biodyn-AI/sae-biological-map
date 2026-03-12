@@ -1,0 +1,131 @@
+{
+  "source_layer": 5,
+  "n_features_traced": 4065,
+  "total_edges": 1393850,
+  "mean_edges_per_feature": 342.89052890528905,
+  "median_edges_per_feature": 284.0,
+  "max_edges": 2138,
+  "n_zero_edge_features": 8,
+  "top_20_hubs": [
+    {
+      "feature_idx": 898,
+      "label": "Negative Regulation Of Gene Expression (GO:0010629)",
+      "total_edges": 2138,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 1762,
+      "label": "G2/M Transition Of Mitotic Cell Cycle (GO:0000086)",
+      "total_edges": 2098,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 4518,
+      "label": "unannotated",
+      "total_edges": 1951,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 3792,
+      "label": "transcription_factors",
+      "total_edges": 1943,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 1057,
+      "label": "Herpes simplex virus 1 infection",
+      "total_edges": 1930,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 3604,
+      "label": "unannotated",
+      "total_edges": 1743,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 2270,
+      "label": "unannotated",
+      "total_edges": 1624,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 4473,
+      "label": "Glycerophospholipid Biosynthesis R-HSA-1483206",
+      "total_edges": 1532,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 678,
+      "label": "Organelle Organization (GO:0006996)",
+      "total_edges": 1516,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 3420,
+      "label": "unannotated",
+      "total_edges": 1508,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 3797,
+      "label": "Major Pathway Of rRNA Processing In Nucleolus And Cytosol R-HSA-6791226",
+      "total_edges": 1500,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 2520,
+      "label": "ncRNA Processing (GO:0034470)",
+      "total_edges": 1499,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 2797,
+      "label": "unannotated",
+      "total_edges": 1460,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 3370,
+      "label": "Golgi Organization (GO:0007030)",
+      "total_edges": 1404,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 1303,
+      "label": "Regulation Of mRNA Metabolic Process (GO:1903311)",
+      "total_edges": 1387,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 972,
+      "label": "unannotated",
+      "total_edges": 1386,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 2674,
+      "label": "Protein Modification By Small Protein Conjugation (GO:0032446)",
+      "total_edges": 1386,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 3169,
+      "label": "unannotated",
+      "total_edges": 1378,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 1560,
+      "label": "DNA Damage Response (GO:0006974)",
+      "total_edges": 1334,
+      "n_cells_active": 20
+    },
+    {
+      "feature_idx": 4434,
+      "label": "unannotated",
+      "total_edges": 1327,
+      "n_cells_active": 20
+    }
+  ]
+}

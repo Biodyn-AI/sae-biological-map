@@ -1,0 +1,65 @@
+{
+  "triplet_id": "L0_F1450_x_L5_F4432_x_L11_F3016",
+  "feature_A": {
+    "layer": 0,
+    "idx": 1450,
+    "label": "Aerobic Electron Transport Chain (GO:0019646)",
+    "n_edges": 2813
+  },
+  "feature_B": {
+    "layer": 5,
+    "idx": 4432,
+    "label": "Cholesterol Biosynthetic Process (GO:0006695)",
+    "n_edges": 3267
+  },
+  "feature_C": {
+    "layer": 11,
+    "idx": 3016,
+    "label": "Aerobic Electron Transport Chain (GO:0019646)",
+    "n_edges": 685
+  },
+  "pathway": "metabolism",
+  "triplet_type": "same_pathway",
+  "target_layer": 17,
+  "n_cells": 200,
+  "n_active": {
+    "A": 200,
+    "B": 200,
+    "C": 200,
+    "AB": 200,
+    "AC": 200,
+    "BC": 200,
+    "ABC": 200
+  },
+  "n_significant": {
+    "A": 45,
+    "B": 220,
+    "C": 75,
+    "AB": 275,
+    "AC": 115,
+    "BC": 265,
+    "ABC": 322,
+    "any": 452
+  },
+  "pairwise_ratios": {
+    "AB": 0.8209354335056014,
+    "AC": 0.6991785827066301,
+    "BC": 0.7873517390465137
+  },
+  "threeway_ratio": 0.6686758393910134,
+  "n_subadditive_3way": 358,
+  "n_additive_3way": 93,
+  "n_superadditive_3way": 1,
+  "higher_order_interaction_median": 0.11941352386391749,
+  "marginal_C_given_AB_median": 0.011672210685670037,
+  "mean_abs_d": {
+    "A": 0.11199853625582487,
+    "B": 0.17425275353341022,
+    "C": 0.1233645720214876,
+    "AB": 0.1956735726777297,
+    "AC": 0.1415027448942031,
+    "BC": 0.19853095137701054,
+    "ABC": 0.21043349398610264
+  },
+  "elapsed_seconds": 2750.190332889557
+}

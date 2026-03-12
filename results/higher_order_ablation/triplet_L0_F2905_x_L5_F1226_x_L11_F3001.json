@@ -1,0 +1,65 @@
+{
+  "triplet_id": "L0_F2905_x_L5_F1226_x_L11_F3001",
+  "feature_A": {
+    "layer": 0,
+    "idx": 2905,
+    "label": "Golgi Organization (GO:0007030)",
+    "n_edges": 8028
+  },
+  "feature_B": {
+    "layer": 5,
+    "idx": 1226,
+    "label": "Golgi Organization (GO:0007030)",
+    "n_edges": 1345
+  },
+  "feature_C": {
+    "layer": 11,
+    "idx": 3001,
+    "label": "Intracellular Protein Transport (GO:0006886)",
+    "n_edges": 1242
+  },
+  "pathway": "vesicle",
+  "triplet_type": "same_pathway",
+  "target_layer": 17,
+  "n_cells": 200,
+  "n_active": {
+    "A": 200,
+    "B": 200,
+    "C": 200,
+    "AB": 200,
+    "AC": 200,
+    "BC": 200,
+    "ABC": 200
+  },
+  "n_significant": {
+    "A": 297,
+    "B": 44,
+    "C": 185,
+    "AB": 326,
+    "AC": 419,
+    "BC": 200,
+    "ABC": 442,
+    "any": 621
+  },
+  "pairwise_ratios": {
+    "AB": 0.7416902929610313,
+    "AC": 0.7130760217695042,
+    "BC": 0.7413998975803273
+  },
+  "threeway_ratio": 0.6068806464824997,
+  "n_subadditive_3way": 592,
+  "n_additive_3way": 29,
+  "n_superadditive_3way": 0,
+  "higher_order_interaction_median": 0.14710503384843943,
+  "marginal_C_given_AB_median": 0.07204758967300628,
+  "mean_abs_d": {
+    "A": 0.190874797325251,
+    "B": 0.10462542361415614,
+    "C": 0.19058296657534587,
+    "AB": 0.19836937576195243,
+    "AC": 0.228835317486404,
+    "BC": 0.19491622274917486,
+    "ABC": 0.23351361459557612
+  },
+  "elapsed_seconds": 2965.119484901428
+}
