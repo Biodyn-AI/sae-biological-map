@@ -1,0 +1,410 @@
+[
+ {
+  "type": "same_pathway",
+  "pathway": "vesicle",
+  "features": [
+   [
+    0,
+    2905,
+    {
+     "label": "Golgi Organization (GO:0007030)",
+     "pathway": "vesicle",
+     "freq": 0.042654839287822974
+    }
+   ],
+   [
+    5,
+    2630,
+    {
+     "label": "Intracellular Protein Transport (GO:0006886)",
+     "pathway": "vesicle",
+     "freq": 0.028875952795998177
+    }
+   ],
+   [
+    11,
+    1724,
+    {
+     "label": "Intracellular Protein Transport (GO:0006886)",
+     "pathway": "vesicle",
+     "freq": 0.029168580332421923
+    }
+   ]
+  ],
+  "id": "L0_F2905_x_L5_F2630_x_L11_F1724"
+ },
+ {
+  "type": "same_pathway",
+  "pathway": "translation",
+  "features": [
+   [
+    0,
+    4148,
+    {
+     "label": "Regulation Of Translation (GO:0006417)",
+     "pathway": "translation",
+     "freq": 0.026267204194114366
+    }
+   ],
+   [
+    5,
+    3797,
+    {
+     "label": "Major Pathway Of rRNA Processing In Nucleolus And Cytosol R-HSA-6791226",
+     "pathway": "translation",
+     "freq": 0.028655557667470098
+    }
+   ],
+   [
+    11,
+    1305,
+    {
+     "label": "Ribosome biogenesis in eukaryotes",
+     "pathway": "translation",
+     "freq": 0.048735427481497534
+    }
+   ]
+  ],
+  "id": "L0_F4148_x_L5_F3797_x_L11_F1305"
+ },
+ {
+  "type": "same_pathway",
+  "pathway": "rna",
+  "features": [
+   [
+    0,
+    4201,
+    {
+     "label": "RNA Splicing, Via Transesterification Reactions With Bulged Adenosine As Nucleophile (GO:0000377)",
+     "pathway": "rna",
+     "freq": 0.04830351219605996
+    }
+   ],
+   [
+    5,
+    2520,
+    {
+     "label": "ncRNA Processing (GO:0034470)",
+     "pathway": "rna",
+     "freq": 0.0304519998392644
+    }
+   ],
+   [
+    11,
+    4576,
+    {
+     "label": "ncRNA Processing (GO:0034470)",
+     "pathway": "rna",
+     "freq": 0.053330444037017505
+    }
+   ]
+  ],
+  "id": "L0_F4201_x_L5_F2520_x_L11_F4576"
+ },
+ {
+  "type": "same_pathway",
+  "pathway": "metabolism",
+  "features": [
+   [
+    0,
+    2834,
+    {
+     "label": "Fatty Acid Metabolic Process (GO:0006631)",
+     "pathway": "metabolism",
+     "freq": 0.025729775357211444
+    }
+   ],
+   [
+    5,
+    4473,
+    {
+     "label": "Glycerophospholipid Biosynthesis R-HSA-1483206",
+     "pathway": "metabolism",
+     "freq": 0.038916257493496004
+    }
+   ],
+   [
+    11,
+    1835,
+    {
+     "label": "Metabolism Of Lipids R-HSA-556833",
+     "pathway": "metabolism",
+     "freq": 0.04016319100590654
+    }
+   ]
+  ],
+  "id": "L0_F2834_x_L5_F4473_x_L11_F1835"
+ },
+ {
+  "type": "cross_pathway",
+  "pathway": "ddr_x_mitosis_x_mitosis",
+  "features": [
+   [
+    0,
+    561,
+    {
+     "label": "DNA Repair (GO:0006281)",
+     "pathway": "ddr",
+     "freq": 0.04878547246034675
+    }
+   ],
+   [
+    5,
+    1762,
+    {
+     "label": "G2/M Transition Of Mitotic Cell Cycle (GO:0000086)",
+     "pathway": "mitosis",
+     "freq": 0.05624685832167877
+    }
+   ],
+   [
+    11,
+    1023,
+    {
+     "label": "Attachment Of Mitotic Spindle Microtubules To Kinetochore (GO:0051315)",
+     "pathway": "mitosis",
+     "freq": 0.092014473106494
+    }
+   ]
+  ],
+  "id": "L0_F561_x_L5_F1762_x_L11_F1023"
+ },
+ {
+  "type": "cross_pathway",
+  "pathway": "vesicle_x_metabolism_x_translation",
+  "features": [
+   [
+    0,
+    2905,
+    {
+     "label": "Golgi Organization (GO:0007030)",
+     "pathway": "vesicle",
+     "freq": 0.042654839287822974
+    }
+   ],
+   [
+    5,
+    4473,
+    {
+     "label": "Glycerophospholipid Biosynthesis R-HSA-1483206",
+     "pathway": "metabolism",
+     "freq": 0.038916257493496004
+    }
+   ],
+   [
+    11,
+    1305,
+    {
+     "label": "Ribosome biogenesis in eukaryotes",
+     "pathway": "translation",
+     "freq": 0.048735427481497534
+    }
+   ]
+  ],
+  "id": "L0_F2905_x_L5_F4473_x_L11_F1305"
+ },
+ {
+  "type": "cross_pathway",
+  "pathway": "translation_x_ddr_x_rna",
+  "features": [
+   [
+    0,
+    4148,
+    {
+     "label": "Regulation Of Translation (GO:0006417)",
+     "pathway": "translation",
+     "freq": 0.026267204194114366
+    }
+   ],
+   [
+    5,
+    671,
+    {
+     "label": "DNA Repair (GO:0006281)",
+     "pathway": "ddr",
+     "freq": 0.07640931467715688
+    }
+   ],
+   [
+    11,
+    4576,
+    {
+     "label": "ncRNA Processing (GO:0034470)",
+     "pathway": "rna",
+     "freq": 0.053330444037017505
+    }
+   ]
+  ],
+  "id": "L0_F4148_x_L5_F671_x_L11_F4576"
+ },
+ {
+  "type": "cross_pathway",
+  "pathway": "metabolism_x_translation_x_ddr",
+  "features": [
+   [
+    0,
+    2834,
+    {
+     "label": "Fatty Acid Metabolic Process (GO:0006631)",
+     "pathway": "metabolism",
+     "freq": 0.025729775357211444
+    }
+   ],
+   [
+    5,
+    3797,
+    {
+     "label": "Major Pathway Of rRNA Processing In Nucleolus And Cytosol R-HSA-6791226",
+     "pathway": "translation",
+     "freq": 0.028655557667470098
+    }
+   ],
+   [
+    11,
+    3904,
+    {
+     "label": "DNA Repair (GO:0006281)",
+     "pathway": "ddr",
+     "freq": 0.08380857573715884
+    }
+   ]
+  ],
+  "id": "L0_F2834_x_L5_F3797_x_L11_F3904"
+ },
+ {
+  "type": "random",
+  "pathway": "random",
+  "features": [
+   [
+    0,
+    3134,
+    {
+     "label": "unannotated",
+     "pathway": null,
+     "freq": 0.02743475601593649
+    }
+   ],
+   [
+    5,
+    1686,
+    {
+     "label": "Attachment Of Mitotic Spindle Microtubules To Kinetochore (GO:0051315)",
+     "pathway": "mitosis",
+     "freq": 0.03983531010999788
+    }
+   ],
+   [
+    11,
+    2316,
+    {
+     "label": "Clathrin-mediated Endocytosis R-HSA-8856828",
+     "pathway": null,
+     "freq": 0.06162558417651727
+    }
+   ]
+  ],
+  "id": "L0_F3134_x_L5_F1686_x_L11_F2316"
+ },
+ {
+  "type": "random",
+  "pathway": "random",
+  "features": [
+   [
+    0,
+    750,
+    {
+     "label": "DNA Repair (GO:0006281)",
+     "pathway": "ddr",
+     "freq": 0.027711605825038316
+    }
+   ],
+   [
+    5,
+    2270,
+    {
+     "label": "unannotated",
+     "pathway": null,
+     "freq": 0.030355607786407043
+    }
+   ],
+   [
+    11,
+    1119,
+    {
+     "label": "unannotated",
+     "pathway": null,
+     "freq": 0.041594773233381434
+    }
+   ]
+  ],
+  "id": "L0_F750_x_L5_F2270_x_L11_F1119"
+ },
+ {
+  "type": "random",
+  "pathway": "random",
+  "features": [
+   [
+    0,
+    1066,
+    {
+     "label": "unannotated",
+     "pathway": null,
+     "freq": 0.027891077473325164
+    }
+   ],
+   [
+    5,
+    4204,
+    {
+     "label": "unannotated",
+     "pathway": null,
+     "freq": 0.036814614908818294
+    }
+   ],
+   [
+    11,
+    3380,
+    {
+     "label": "unannotated",
+     "pathway": null,
+     "freq": 0.05162176547345138
+    }
+   ]
+  ],
+  "id": "L0_F1066_x_L5_F4204_x_L11_F3380"
+ },
+ {
+  "type": "random",
+  "pathway": "random",
+  "features": [
+   [
+    0,
+    1918,
+    {
+     "label": "unannotated",
+     "pathway": null,
+     "freq": 0.03738902279413197
+    }
+   ],
+   [
+    5,
+    2674,
+    {
+     "label": "Protein Modification By Small Protein Conjugation (GO:0032446)",
+     "pathway": null,
+     "freq": 0.0374447378937375
+    }
+   ],
+   [
+    11,
+    1835,
+    {
+     "label": "Metabolism Of Lipids R-HSA-556833",
+     "pathway": "metabolism",
+     "freq": 0.04016319100590654
+    }
+   ]
+  ],
+  "id": "L0_F1918_x_L5_F2674_x_L11_F1835"
+ }
+]

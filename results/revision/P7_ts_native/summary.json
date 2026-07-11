@@ -1,0 +1,28 @@
+{
+ "ts_native": {
+  "n_features": 400,
+  "mean_edges": 9.61,
+  "median_edges": 0.0,
+  "max_edges": 172,
+  "annotation_rate": 0.515,
+  "top20_unannotated_frac": 0.7,
+  "heavy_tail_frac_gt_5x_median": 0.1375,
+  "spearman_freq_vs_edges": 0.15919205020564686,
+  "spearman_edges_vs_annotated": -0.13807132622179996,
+  "skewness": 3.080582847026981,
+  "gini": 0.8996592091571279
+ },
+ "k562_same_downstream": {
+  "n_features": 4065,
+  "mean_edges": 172.0059040590406,
+  "median_edges": 144.0,
+  "max_edges": 1183,
+  "annotation_rate": 0.5375153751537516,
+  "top20_unannotated_frac": 0.4,
+  "heavy_tail_frac_gt_5x_median": 0.004182041820418204,
+  "spearman_freq_vs_edges": 0.7874237401055653,
+  "spearman_edges_vs_annotated": 0.15846531003969483,
+  "skewness": 2.1915096433971035,
+  "gini": 0.3357893034196616
+ }
+}

@@ -1,0 +1,1214 @@
+{
+ "n_features": 200,
+ "mean_edges_real": 355.555,
+ "mean_edges_normmatched": 22.67,
+ "median_edges_real": 283.0,
+ "median_edges_normmatched": 20.0,
+ "ratio_real_over_normmatched": 15.683943537715042,
+ "excess_fraction": 0.9362405253758209,
+ "wilcoxon_stat": 5.0,
+ "wilcoxon_p": 2.2580825824796806e-34,
+ "spearman_degree_vs_normmatched": 0.4217496082727014,
+ "per_feature": [
+  {
+   "feature_idx": 6,
+   "observed_degree": 176,
+   "edges_real": 176,
+   "edges_normmatched": 25
+  },
+  {
+   "feature_idx": 79,
+   "observed_degree": 298,
+   "edges_real": 298,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 84,
+   "observed_degree": 160,
+   "edges_real": 160,
+   "edges_normmatched": 16
+  },
+  {
+   "feature_idx": 133,
+   "observed_degree": 201,
+   "edges_real": 201,
+   "edges_normmatched": 16
+  },
+  {
+   "feature_idx": 150,
+   "observed_degree": 315,
+   "edges_real": 315,
+   "edges_normmatched": 12
+  },
+  {
+   "feature_idx": 176,
+   "observed_degree": 166,
+   "edges_real": 166,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 192,
+   "observed_degree": 356,
+   "edges_real": 356,
+   "edges_normmatched": 19
+  },
+  {
+   "feature_idx": 206,
+   "observed_degree": 863,
+   "edges_real": 863,
+   "edges_normmatched": 27
+  },
+  {
+   "feature_idx": 240,
+   "observed_degree": 116,
+   "edges_real": 116,
+   "edges_normmatched": 19
+  },
+  {
+   "feature_idx": 242,
+   "observed_degree": 145,
+   "edges_real": 145,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 265,
+   "observed_degree": 125,
+   "edges_real": 125,
+   "edges_normmatched": 8
+  },
+  {
+   "feature_idx": 276,
+   "observed_degree": 258,
+   "edges_real": 258,
+   "edges_normmatched": 33
+  },
+  {
+   "feature_idx": 277,
+   "observed_degree": 89,
+   "edges_real": 89,
+   "edges_normmatched": 3
+  },
+  {
+   "feature_idx": 309,
+   "observed_degree": 575,
+   "edges_real": 575,
+   "edges_normmatched": 42
+  },
+  {
+   "feature_idx": 316,
+   "observed_degree": 224,
+   "edges_real": 224,
+   "edges_normmatched": 37
+  },
+  {
+   "feature_idx": 386,
+   "observed_degree": 915,
+   "edges_real": 915,
+   "edges_normmatched": 28
+  },
+  {
+   "feature_idx": 402,
+   "observed_degree": 240,
+   "edges_real": 240,
+   "edges_normmatched": 19
+  },
+  {
+   "feature_idx": 468,
+   "observed_degree": 131,
+   "edges_real": 131,
+   "edges_normmatched": 20
+  },
+  {
+   "feature_idx": 484,
+   "observed_degree": 319,
+   "edges_real": 319,
+   "edges_normmatched": 27
+  },
+  {
+   "feature_idx": 486,
+   "observed_degree": 597,
+   "edges_real": 597,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 487,
+   "observed_degree": 355,
+   "edges_real": 355,
+   "edges_normmatched": 406
+  },
+  {
+   "feature_idx": 502,
+   "observed_degree": 544,
+   "edges_real": 544,
+   "edges_normmatched": 24
+  },
+  {
+   "feature_idx": 504,
+   "observed_degree": 464,
+   "edges_real": 464,
+   "edges_normmatched": 23
+  },
+  {
+   "feature_idx": 543,
+   "observed_degree": 259,
+   "edges_real": 259,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 556,
+   "observed_degree": 116,
+   "edges_real": 116,
+   "edges_normmatched": 8
+  },
+  {
+   "feature_idx": 557,
+   "observed_degree": 502,
+   "edges_real": 502,
+   "edges_normmatched": 19
+  },
+  {
+   "feature_idx": 595,
+   "observed_degree": 124,
+   "edges_real": 124,
+   "edges_normmatched": 10
+  },
+  {
+   "feature_idx": 669,
+   "observed_degree": 344,
+   "edges_real": 344,
+   "edges_normmatched": 10
+  },
+  {
+   "feature_idx": 671,
+   "observed_degree": 827,
+   "edges_real": 827,
+   "edges_normmatched": 57
+  },
+  {
+   "feature_idx": 678,
+   "observed_degree": 1516,
+   "edges_real": 1516,
+   "edges_normmatched": 42
+  },
+  {
+   "feature_idx": 705,
+   "observed_degree": 317,
+   "edges_real": 317,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 763,
+   "observed_degree": 133,
+   "edges_real": 133,
+   "edges_normmatched": 26
+  },
+  {
+   "feature_idx": 810,
+   "observed_degree": 375,
+   "edges_real": 375,
+   "edges_normmatched": 27
+  },
+  {
+   "feature_idx": 841,
+   "observed_degree": 213,
+   "edges_real": 213,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 861,
+   "observed_degree": 106,
+   "edges_real": 106,
+   "edges_normmatched": 12
+  },
+  {
+   "feature_idx": 892,
+   "observed_degree": 260,
+   "edges_real": 260,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 898,
+   "observed_degree": 2138,
+   "edges_real": 2138,
+   "edges_normmatched": 65
+  },
+  {
+   "feature_idx": 912,
+   "observed_degree": 161,
+   "edges_real": 161,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 918,
+   "observed_degree": 229,
+   "edges_real": 229,
+   "edges_normmatched": 10
+  },
+  {
+   "feature_idx": 936,
+   "observed_degree": 373,
+   "edges_real": 373,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 967,
+   "observed_degree": 269,
+   "edges_real": 269,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 978,
+   "observed_degree": 415,
+   "edges_real": 415,
+   "edges_normmatched": 14
+  },
+  {
+   "feature_idx": 980,
+   "observed_degree": 382,
+   "edges_real": 382,
+   "edges_normmatched": 14
+  },
+  {
+   "feature_idx": 1001,
+   "observed_degree": 266,
+   "edges_real": 266,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 1004,
+   "observed_degree": 0,
+   "edges_real": 0,
+   "edges_normmatched": 0
+  },
+  {
+   "feature_idx": 1035,
+   "observed_degree": 186,
+   "edges_real": 186,
+   "edges_normmatched": 28
+  },
+  {
+   "feature_idx": 1061,
+   "observed_degree": 172,
+   "edges_real": 172,
+   "edges_normmatched": 5
+  },
+  {
+   "feature_idx": 1070,
+   "observed_degree": 499,
+   "edges_real": 499,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 1098,
+   "observed_degree": 502,
+   "edges_real": 502,
+   "edges_normmatched": 16
+  },
+  {
+   "feature_idx": 1128,
+   "observed_degree": 187,
+   "edges_real": 187,
+   "edges_normmatched": 25
+  },
+  {
+   "feature_idx": 1147,
+   "observed_degree": 222,
+   "edges_real": 222,
+   "edges_normmatched": 38
+  },
+  {
+   "feature_idx": 1166,
+   "observed_degree": 125,
+   "edges_real": 125,
+   "edges_normmatched": 7
+  },
+  {
+   "feature_idx": 1194,
+   "observed_degree": 433,
+   "edges_real": 433,
+   "edges_normmatched": 30
+  },
+  {
+   "feature_idx": 1205,
+   "observed_degree": 271,
+   "edges_real": 271,
+   "edges_normmatched": 20
+  },
+  {
+   "feature_idx": 1219,
+   "observed_degree": 31,
+   "edges_real": 31,
+   "edges_normmatched": 7
+  },
+  {
+   "feature_idx": 1243,
+   "observed_degree": 247,
+   "edges_real": 247,
+   "edges_normmatched": 29
+  },
+  {
+   "feature_idx": 1245,
+   "observed_degree": 328,
+   "edges_real": 328,
+   "edges_normmatched": 25
+  },
+  {
+   "feature_idx": 1256,
+   "observed_degree": 206,
+   "edges_real": 206,
+   "edges_normmatched": 20
+  },
+  {
+   "feature_idx": 1281,
+   "observed_degree": 185,
+   "edges_real": 185,
+   "edges_normmatched": 19
+  },
+  {
+   "feature_idx": 1306,
+   "observed_degree": 115,
+   "edges_real": 115,
+   "edges_normmatched": 8
+  },
+  {
+   "feature_idx": 1330,
+   "observed_degree": 246,
+   "edges_real": 246,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 1342,
+   "observed_degree": 240,
+   "edges_real": 240,
+   "edges_normmatched": 24
+  },
+  {
+   "feature_idx": 1374,
+   "observed_degree": 107,
+   "edges_real": 107,
+   "edges_normmatched": 13
+  },
+  {
+   "feature_idx": 1376,
+   "observed_degree": 1033,
+   "edges_real": 1033,
+   "edges_normmatched": 34
+  },
+  {
+   "feature_idx": 1394,
+   "observed_degree": 401,
+   "edges_real": 401,
+   "edges_normmatched": 10
+  },
+  {
+   "feature_idx": 1409,
+   "observed_degree": 286,
+   "edges_real": 286,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 1428,
+   "observed_degree": 50,
+   "edges_real": 50,
+   "edges_normmatched": 11
+  },
+  {
+   "feature_idx": 1439,
+   "observed_degree": 314,
+   "edges_real": 314,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 1472,
+   "observed_degree": 251,
+   "edges_real": 251,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 1513,
+   "observed_degree": 174,
+   "edges_real": 174,
+   "edges_normmatched": 7
+  },
+  {
+   "feature_idx": 1526,
+   "observed_degree": 414,
+   "edges_real": 414,
+   "edges_normmatched": 20
+  },
+  {
+   "feature_idx": 1560,
+   "observed_degree": 1334,
+   "edges_real": 1334,
+   "edges_normmatched": 43
+  },
+  {
+   "feature_idx": 1578,
+   "observed_degree": 627,
+   "edges_real": 627,
+   "edges_normmatched": 14
+  },
+  {
+   "feature_idx": 1579,
+   "observed_degree": 149,
+   "edges_real": 149,
+   "edges_normmatched": 13
+  },
+  {
+   "feature_idx": 1604,
+   "observed_degree": 164,
+   "edges_real": 164,
+   "edges_normmatched": 25
+  },
+  {
+   "feature_idx": 1637,
+   "observed_degree": 847,
+   "edges_real": 847,
+   "edges_normmatched": 44
+  },
+  {
+   "feature_idx": 1670,
+   "observed_degree": 355,
+   "edges_real": 355,
+   "edges_normmatched": 20
+  },
+  {
+   "feature_idx": 1675,
+   "observed_degree": 143,
+   "edges_real": 143,
+   "edges_normmatched": 27
+  },
+  {
+   "feature_idx": 1692,
+   "observed_degree": 288,
+   "edges_real": 288,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 1756,
+   "observed_degree": 499,
+   "edges_real": 499,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 1781,
+   "observed_degree": 500,
+   "edges_real": 500,
+   "edges_normmatched": 24
+  },
+  {
+   "feature_idx": 1795,
+   "observed_degree": 316,
+   "edges_real": 316,
+   "edges_normmatched": 13
+  },
+  {
+   "feature_idx": 1818,
+   "observed_degree": 140,
+   "edges_real": 140,
+   "edges_normmatched": 16
+  },
+  {
+   "feature_idx": 1821,
+   "observed_degree": 300,
+   "edges_real": 300,
+   "edges_normmatched": 16
+  },
+  {
+   "feature_idx": 1823,
+   "observed_degree": 689,
+   "edges_real": 689,
+   "edges_normmatched": 39
+  },
+  {
+   "feature_idx": 1842,
+   "observed_degree": 120,
+   "edges_real": 120,
+   "edges_normmatched": 9
+  },
+  {
+   "feature_idx": 1843,
+   "observed_degree": 275,
+   "edges_real": 275,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 1854,
+   "observed_degree": 143,
+   "edges_real": 143,
+   "edges_normmatched": 36
+  },
+  {
+   "feature_idx": 1862,
+   "observed_degree": 592,
+   "edges_real": 592,
+   "edges_normmatched": 29
+  },
+  {
+   "feature_idx": 1870,
+   "observed_degree": 483,
+   "edges_real": 483,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 1882,
+   "observed_degree": 184,
+   "edges_real": 184,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 1891,
+   "observed_degree": 626,
+   "edges_real": 626,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 1913,
+   "observed_degree": 913,
+   "edges_real": 913,
+   "edges_normmatched": 34
+  },
+  {
+   "feature_idx": 1916,
+   "observed_degree": 172,
+   "edges_real": 172,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 1929,
+   "observed_degree": 422,
+   "edges_real": 422,
+   "edges_normmatched": 25
+  },
+  {
+   "feature_idx": 1937,
+   "observed_degree": 35,
+   "edges_real": 35,
+   "edges_normmatched": 8
+  },
+  {
+   "feature_idx": 1954,
+   "observed_degree": 185,
+   "edges_real": 185,
+   "edges_normmatched": 12
+  },
+  {
+   "feature_idx": 1981,
+   "observed_degree": 145,
+   "edges_real": 145,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 1988,
+   "observed_degree": 353,
+   "edges_real": 353,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 2026,
+   "observed_degree": 260,
+   "edges_real": 260,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 2095,
+   "observed_degree": 203,
+   "edges_real": 203,
+   "edges_normmatched": 7
+  },
+  {
+   "feature_idx": 2098,
+   "observed_degree": 580,
+   "edges_real": 580,
+   "edges_normmatched": 23
+  },
+  {
+   "feature_idx": 2104,
+   "observed_degree": 123,
+   "edges_real": 123,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 2110,
+   "observed_degree": 688,
+   "edges_real": 688,
+   "edges_normmatched": 28
+  },
+  {
+   "feature_idx": 2115,
+   "observed_degree": 110,
+   "edges_real": 110,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 2154,
+   "observed_degree": 351,
+   "edges_real": 351,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 2260,
+   "observed_degree": 215,
+   "edges_real": 215,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 2301,
+   "observed_degree": 572,
+   "edges_real": 572,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 2316,
+   "observed_degree": 312,
+   "edges_real": 312,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 2324,
+   "observed_degree": 239,
+   "edges_real": 239,
+   "edges_normmatched": 25
+  },
+  {
+   "feature_idx": 2339,
+   "observed_degree": 168,
+   "edges_real": 168,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 2357,
+   "observed_degree": 356,
+   "edges_real": 356,
+   "edges_normmatched": 23
+  },
+  {
+   "feature_idx": 2365,
+   "observed_degree": 615,
+   "edges_real": 615,
+   "edges_normmatched": 13
+  },
+  {
+   "feature_idx": 2458,
+   "observed_degree": 113,
+   "edges_real": 113,
+   "edges_normmatched": 30
+  },
+  {
+   "feature_idx": 2477,
+   "observed_degree": 140,
+   "edges_real": 140,
+   "edges_normmatched": 25
+  },
+  {
+   "feature_idx": 2489,
+   "observed_degree": 416,
+   "edges_real": 416,
+   "edges_normmatched": 29
+  },
+  {
+   "feature_idx": 2515,
+   "observed_degree": 487,
+   "edges_real": 487,
+   "edges_normmatched": 13
+  },
+  {
+   "feature_idx": 2538,
+   "observed_degree": 189,
+   "edges_real": 189,
+   "edges_normmatched": 25
+  },
+  {
+   "feature_idx": 2545,
+   "observed_degree": 179,
+   "edges_real": 179,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 2575,
+   "observed_degree": 128,
+   "edges_real": 128,
+   "edges_normmatched": 7
+  },
+  {
+   "feature_idx": 2638,
+   "observed_degree": 543,
+   "edges_real": 543,
+   "edges_normmatched": 26
+  },
+  {
+   "feature_idx": 2671,
+   "observed_degree": 437,
+   "edges_real": 437,
+   "edges_normmatched": 14
+  },
+  {
+   "feature_idx": 2709,
+   "observed_degree": 458,
+   "edges_real": 458,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 2725,
+   "observed_degree": 799,
+   "edges_real": 799,
+   "edges_normmatched": 28
+  },
+  {
+   "feature_idx": 2730,
+   "observed_degree": 602,
+   "edges_real": 602,
+   "edges_normmatched": 19
+  },
+  {
+   "feature_idx": 2768,
+   "observed_degree": 277,
+   "edges_real": 277,
+   "edges_normmatched": 24
+  },
+  {
+   "feature_idx": 2788,
+   "observed_degree": 120,
+   "edges_real": 120,
+   "edges_normmatched": 19
+  },
+  {
+   "feature_idx": 2795,
+   "observed_degree": 367,
+   "edges_real": 367,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 2806,
+   "observed_degree": 307,
+   "edges_real": 307,
+   "edges_normmatched": 20
+  },
+  {
+   "feature_idx": 2814,
+   "observed_degree": 375,
+   "edges_real": 375,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 2834,
+   "observed_degree": 230,
+   "edges_real": 230,
+   "edges_normmatched": 19
+  },
+  {
+   "feature_idx": 2873,
+   "observed_degree": 133,
+   "edges_real": 133,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 2901,
+   "observed_degree": 315,
+   "edges_real": 315,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 2930,
+   "observed_degree": 500,
+   "edges_real": 500,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 2942,
+   "observed_degree": 293,
+   "edges_real": 293,
+   "edges_normmatched": 9
+  },
+  {
+   "feature_idx": 2975,
+   "observed_degree": 268,
+   "edges_real": 268,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 2984,
+   "observed_degree": 189,
+   "edges_real": 189,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 2990,
+   "observed_degree": 195,
+   "edges_real": 195,
+   "edges_normmatched": 14
+  },
+  {
+   "feature_idx": 3087,
+   "observed_degree": 237,
+   "edges_real": 237,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 3089,
+   "observed_degree": 473,
+   "edges_real": 473,
+   "edges_normmatched": 28
+  },
+  {
+   "feature_idx": 3100,
+   "observed_degree": 455,
+   "edges_real": 455,
+   "edges_normmatched": 23
+  },
+  {
+   "feature_idx": 3112,
+   "observed_degree": 175,
+   "edges_real": 175,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 3122,
+   "observed_degree": 209,
+   "edges_real": 209,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 3162,
+   "observed_degree": 641,
+   "edges_real": 641,
+   "edges_normmatched": 68
+  },
+  {
+   "feature_idx": 3189,
+   "observed_degree": 201,
+   "edges_real": 201,
+   "edges_normmatched": 12
+  },
+  {
+   "feature_idx": 3198,
+   "observed_degree": 330,
+   "edges_real": 330,
+   "edges_normmatched": 16
+  },
+  {
+   "feature_idx": 3216,
+   "observed_degree": 464,
+   "edges_real": 464,
+   "edges_normmatched": 49
+  },
+  {
+   "feature_idx": 3253,
+   "observed_degree": 312,
+   "edges_real": 312,
+   "edges_normmatched": 11
+  },
+  {
+   "feature_idx": 3262,
+   "observed_degree": 339,
+   "edges_real": 339,
+   "edges_normmatched": 20
+  },
+  {
+   "feature_idx": 3288,
+   "observed_degree": 208,
+   "edges_real": 208,
+   "edges_normmatched": 19
+  },
+  {
+   "feature_idx": 3291,
+   "observed_degree": 258,
+   "edges_real": 258,
+   "edges_normmatched": 12
+  },
+  {
+   "feature_idx": 3299,
+   "observed_degree": 254,
+   "edges_real": 254,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 3300,
+   "observed_degree": 387,
+   "edges_real": 387,
+   "edges_normmatched": 10
+  },
+  {
+   "feature_idx": 3319,
+   "observed_degree": 356,
+   "edges_real": 356,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 3392,
+   "observed_degree": 392,
+   "edges_real": 392,
+   "edges_normmatched": 10
+  },
+  {
+   "feature_idx": 3414,
+   "observed_degree": 215,
+   "edges_real": 215,
+   "edges_normmatched": 14
+  },
+  {
+   "feature_idx": 3427,
+   "observed_degree": 771,
+   "edges_real": 771,
+   "edges_normmatched": 19
+  },
+  {
+   "feature_idx": 3451,
+   "observed_degree": 384,
+   "edges_real": 384,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 3456,
+   "observed_degree": 277,
+   "edges_real": 277,
+   "edges_normmatched": 28
+  },
+  {
+   "feature_idx": 3468,
+   "observed_degree": 220,
+   "edges_real": 220,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 3526,
+   "observed_degree": 224,
+   "edges_real": 224,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 3590,
+   "observed_degree": 459,
+   "edges_real": 458,
+   "edges_normmatched": 22
+  },
+  {
+   "feature_idx": 3648,
+   "observed_degree": 303,
+   "edges_real": 303,
+   "edges_normmatched": 8
+  },
+  {
+   "feature_idx": 3673,
+   "observed_degree": 145,
+   "edges_real": 145,
+   "edges_normmatched": 16
+  },
+  {
+   "feature_idx": 3678,
+   "observed_degree": 527,
+   "edges_real": 527,
+   "edges_normmatched": 28
+  },
+  {
+   "feature_idx": 3694,
+   "observed_degree": 416,
+   "edges_real": 416,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 3702,
+   "observed_degree": 340,
+   "edges_real": 340,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 3721,
+   "observed_degree": 154,
+   "edges_real": 154,
+   "edges_normmatched": 20
+  },
+  {
+   "feature_idx": 3725,
+   "observed_degree": 144,
+   "edges_real": 144,
+   "edges_normmatched": 14
+  },
+  {
+   "feature_idx": 3728,
+   "observed_degree": 472,
+   "edges_real": 472,
+   "edges_normmatched": 23
+  },
+  {
+   "feature_idx": 3735,
+   "observed_degree": 217,
+   "edges_real": 217,
+   "edges_normmatched": 23
+  },
+  {
+   "feature_idx": 3748,
+   "observed_degree": 339,
+   "edges_real": 339,
+   "edges_normmatched": 32
+  },
+  {
+   "feature_idx": 3757,
+   "observed_degree": 187,
+   "edges_real": 187,
+   "edges_normmatched": 30
+  },
+  {
+   "feature_idx": 3775,
+   "observed_degree": 735,
+   "edges_real": 735,
+   "edges_normmatched": 25
+  },
+  {
+   "feature_idx": 3802,
+   "observed_degree": 161,
+   "edges_real": 161,
+   "edges_normmatched": 20
+  },
+  {
+   "feature_idx": 3816,
+   "observed_degree": 219,
+   "edges_real": 219,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 3869,
+   "observed_degree": 295,
+   "edges_real": 295,
+   "edges_normmatched": 11
+  },
+  {
+   "feature_idx": 3903,
+   "observed_degree": 218,
+   "edges_real": 218,
+   "edges_normmatched": 31
+  },
+  {
+   "feature_idx": 3936,
+   "observed_degree": 356,
+   "edges_real": 356,
+   "edges_normmatched": 14
+  },
+  {
+   "feature_idx": 3947,
+   "observed_degree": 745,
+   "edges_real": 745,
+   "edges_normmatched": 26
+  },
+  {
+   "feature_idx": 3984,
+   "observed_degree": 317,
+   "edges_real": 317,
+   "edges_normmatched": 12
+  },
+  {
+   "feature_idx": 3987,
+   "observed_degree": 444,
+   "edges_real": 444,
+   "edges_normmatched": 10
+  },
+  {
+   "feature_idx": 4017,
+   "observed_degree": 497,
+   "edges_real": 497,
+   "edges_normmatched": 18
+  },
+  {
+   "feature_idx": 4086,
+   "observed_degree": 110,
+   "edges_real": 110,
+   "edges_normmatched": 5
+  },
+  {
+   "feature_idx": 4089,
+   "observed_degree": 652,
+   "edges_real": 652,
+   "edges_normmatched": 25
+  },
+  {
+   "feature_idx": 4173,
+   "observed_degree": 144,
+   "edges_real": 144,
+   "edges_normmatched": 26
+  },
+  {
+   "feature_idx": 4190,
+   "observed_degree": 1299,
+   "edges_real": 1299,
+   "edges_normmatched": 33
+  },
+  {
+   "feature_idx": 4204,
+   "observed_degree": 280,
+   "edges_real": 280,
+   "edges_normmatched": 52
+  },
+  {
+   "feature_idx": 4292,
+   "observed_degree": 198,
+   "edges_real": 198,
+   "edges_normmatched": 17
+  },
+  {
+   "feature_idx": 4338,
+   "observed_degree": 1071,
+   "edges_real": 1071,
+   "edges_normmatched": 37
+  },
+  {
+   "feature_idx": 4352,
+   "observed_degree": 438,
+   "edges_real": 438,
+   "edges_normmatched": 21
+  },
+  {
+   "feature_idx": 4360,
+   "observed_degree": 136,
+   "edges_real": 136,
+   "edges_normmatched": 10
+  },
+  {
+   "feature_idx": 4389,
+   "observed_degree": 68,
+   "edges_real": 68,
+   "edges_normmatched": 20
+  },
+  {
+   "feature_idx": 4404,
+   "observed_degree": 137,
+   "edges_real": 137,
+   "edges_normmatched": 8
+  },
+  {
+   "feature_idx": 4416,
+   "observed_degree": 305,
+   "edges_real": 305,
+   "edges_normmatched": 30
+  },
+  {
+   "feature_idx": 4434,
+   "observed_degree": 1327,
+   "edges_real": 1328,
+   "edges_normmatched": 30
+  },
+  {
+   "feature_idx": 4435,
+   "observed_degree": 261,
+   "edges_real": 261,
+   "edges_normmatched": 23
+  },
+  {
+   "feature_idx": 4491,
+   "observed_degree": 169,
+   "edges_real": 169,
+   "edges_normmatched": 27
+  },
+  {
+   "feature_idx": 4592,
+   "observed_degree": 438,
+   "edges_real": 438,
+   "edges_normmatched": 15
+  },
+  {
+   "feature_idx": 4602,
+   "observed_degree": 573,
+   "edges_real": 573,
+   "edges_normmatched": 27
+  }
+ ]
+}

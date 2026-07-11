@@ -1,0 +1,656 @@
+{
+ "per_triplet": [
+  {
+   "type": "same_pathway",
+   "pathway": "vesicle",
+   "id": "L0_F2905_x_L5_F2630_x_L11_F1724",
+   "features": [
+    [
+     0,
+     2905,
+     "Golgi Organization (GO:0007030)"
+    ],
+    [
+     5,
+     2630,
+     "Intracellular Protein Transport (GO:0006886)"
+    ],
+    [
+     11,
+     1724,
+     "Intracellular Protein Transport (GO:0006886)"
+    ]
+   ],
+   "n_targets": 594,
+   "threeway_ratio": 0.5596079666631548,
+   "threeway_ratio_ci": [
+    0.5444428735658197,
+    0.5787321321147098
+   ],
+   "pairwise_ratios": {
+    "AB": 0.7083528746775891,
+    "AC": 0.7193663031492148,
+    "BC": 0.6901814455078381
+   },
+   "pairwise_ratio_mean": 0.7086735199340105,
+   "n_subadditive": 558,
+   "n_additive": 36,
+   "n_superadditive": 0,
+   "superadditive_rate": 0.0,
+   "superadditive_rate_ci": [
+    0.0,
+    0.006425782347698788
+   ],
+   "higher_order_interaction_median": 0.18416094925332932,
+   "interaction_ci": [
+    0.16804192066963664,
+    0.19636159827656474
+   ],
+   "marginal_C_given_AB_median": 0.023719642103900512
+  },
+  {
+   "type": "same_pathway",
+   "pathway": "translation",
+   "id": "L0_F4148_x_L5_F3797_x_L11_F1305",
+   "features": [
+    [
+     0,
+     4148,
+     "Regulation Of Translation (GO:0006417)"
+    ],
+    [
+     5,
+     3797,
+     "Major Pathway Of rRNA Processing In Nucleolus And Cytosol R-HSA-6791226"
+    ],
+    [
+     11,
+     1305,
+     "Ribosome biogenesis in eukaryotes"
+    ]
+   ],
+   "n_targets": 642,
+   "threeway_ratio": 0.5293878607032874,
+   "threeway_ratio_ci": [
+    0.5028582397660067,
+    0.5465116872037858
+   ],
+   "pairwise_ratios": {
+    "AB": 0.6683878435508359,
+    "AC": 0.7408653081550496,
+    "BC": 0.6808584374244908
+   },
+   "pairwise_ratio_mean": 0.6982690640657186,
+   "n_subadditive": 629,
+   "n_additive": 13,
+   "n_superadditive": 0,
+   "superadditive_rate": 0.0,
+   "superadditive_rate_ci": [
+    0.0,
+    0.005948207733908747
+   ],
+   "higher_order_interaction_median": 0.1836170965172444,
+   "interaction_ci": [
+    0.1679546346996933,
+    0.20186156555349502
+   ],
+   "marginal_C_given_AB_median": 0.23266534118637067
+  },
+  {
+   "type": "same_pathway",
+   "pathway": "rna",
+   "id": "L0_F4201_x_L5_F2520_x_L11_F4576",
+   "features": [
+    [
+     0,
+     4201,
+     "RNA Splicing, Via Transesterification Reactions With Bulged Adenosine As Nucleophile (GO:0000377)"
+    ],
+    [
+     5,
+     2520,
+     "ncRNA Processing (GO:0034470)"
+    ],
+    [
+     11,
+     4576,
+     "ncRNA Processing (GO:0034470)"
+    ]
+   ],
+   "n_targets": 726,
+   "threeway_ratio": 0.4819228700779794,
+   "threeway_ratio_ci": [
+    0.4544695811997636,
+    0.49915136502731994
+   ],
+   "pairwise_ratios": {
+    "AB": 0.6622860032477587,
+    "AC": 0.6709302395769634,
+    "BC": 0.67232908876634
+   },
+   "pairwise_ratio_mean": 0.6686403829863288,
+   "n_subadditive": 712,
+   "n_additive": 13,
+   "n_superadditive": 1,
+   "superadditive_rate": 0.0013774104683195593,
+   "superadditive_rate_ci": [
+    0.0002431819077544071,
+    0.007760746615914291
+   ],
+   "higher_order_interaction_median": 0.2389834847220365,
+   "interaction_ci": [
+    0.22767168209480604,
+    0.25409610803219257
+   ],
+   "marginal_C_given_AB_median": 0.08600660143734064
+  },
+  {
+   "type": "same_pathway",
+   "pathway": "metabolism",
+   "id": "L0_F2834_x_L5_F4473_x_L11_F1835",
+   "features": [
+    [
+     0,
+     2834,
+     "Fatty Acid Metabolic Process (GO:0006631)"
+    ],
+    [
+     5,
+     4473,
+     "Glycerophospholipid Biosynthesis R-HSA-1483206"
+    ],
+    [
+     11,
+     1835,
+     "Metabolism Of Lipids R-HSA-556833"
+    ]
+   ],
+   "n_targets": 641,
+   "threeway_ratio": 0.5707536135088929,
+   "threeway_ratio_ci": [
+    0.5506735535391258,
+    0.5863851314081413
+   ],
+   "pairwise_ratios": {
+    "AB": 0.652171779624543,
+    "AC": 0.7557882334683159,
+    "BC": 0.7236002719145785
+   },
+   "pairwise_ratio_mean": 0.7139380991892147,
+   "n_subadditive": 601,
+   "n_additive": 40,
+   "n_superadditive": 0,
+   "superadditive_rate": 0.0,
+   "superadditive_rate_ci": [
+    0.0,
+    0.005957432026717878
+   ],
+   "higher_order_interaction_median": 0.18689524945186597,
+   "interaction_ci": [
+    0.170668862887964,
+    0.20419852339317246
+   ],
+   "marginal_C_given_AB_median": 0.338010049454485
+  },
+  {
+   "type": "cross_pathway",
+   "pathway": "ddr_x_mitosis_x_mitosis",
+   "id": "L0_F561_x_L5_F1762_x_L11_F1023",
+   "features": [
+    [
+     0,
+     561,
+     "DNA Repair (GO:0006281)"
+    ],
+    [
+     5,
+     1762,
+     "G2/M Transition Of Mitotic Cell Cycle (GO:0000086)"
+    ],
+    [
+     11,
+     1023,
+     "Attachment Of Mitotic Spindle Microtubules To Kinetochore (GO:0051315)"
+    ]
+   ],
+   "n_targets": 920,
+   "threeway_ratio": 0.5268800774235907,
+   "threeway_ratio_ci": [
+    0.5133780140906365,
+    0.5383783806524475
+   ],
+   "pairwise_ratios": {
+    "AB": 0.7353288330979181,
+    "AC": 0.7416015093537863,
+    "BC": 0.649867483022533
+   },
+   "pairwise_ratio_mean": 0.6987960761745031,
+   "n_subadditive": 869,
+   "n_additive": 47,
+   "n_superadditive": 4,
+   "superadditive_rate": 0.004347826086956522,
+   "superadditive_rate_ci": [
+    0.0016920172118111247,
+    0.011125764537787507
+   ],
+   "higher_order_interaction_median": 0.15787140481506745,
+   "interaction_ci": [
+    0.1460626291009105,
+    0.17593893170478653
+   ],
+   "marginal_C_given_AB_median": 0.14901734646906592
+  },
+  {
+   "type": "cross_pathway",
+   "pathway": "vesicle_x_metabolism_x_translation",
+   "id": "L0_F2905_x_L5_F4473_x_L11_F1305",
+   "features": [
+    [
+     0,
+     2905,
+     "Golgi Organization (GO:0007030)"
+    ],
+    [
+     5,
+     4473,
+     "Glycerophospholipid Biosynthesis R-HSA-1483206"
+    ],
+    [
+     11,
+     1305,
+     "Ribosome biogenesis in eukaryotes"
+    ]
+   ],
+   "n_targets": 837,
+   "threeway_ratio": 0.5302457447773413,
+   "threeway_ratio_ci": [
+    0.507552574543152,
+    0.5439124657845165
+   ],
+   "pairwise_ratios": {
+    "AB": 0.6719272308339092,
+    "AC": 0.6880480736903037,
+    "BC": 0.6937134899280272
+   },
+   "pairwise_ratio_mean": 0.6868916615340149,
+   "n_subadditive": 815,
+   "n_additive": 21,
+   "n_superadditive": 1,
+   "superadditive_rate": 0.0011947431302270011,
+   "superadditive_rate_ci": [
+    0.00021092721458707345,
+    0.006736397941542213
+   ],
+   "higher_order_interaction_median": 0.21637391040260046,
+   "interaction_ci": [
+    0.20158371920892737,
+    0.23479642852169444
+   ],
+   "marginal_C_given_AB_median": 0.11809665676579972
+  },
+  {
+   "type": "cross_pathway",
+   "pathway": "translation_x_ddr_x_rna",
+   "id": "L0_F4148_x_L5_F671_x_L11_F4576",
+   "features": [
+    [
+     0,
+     4148,
+     "Regulation Of Translation (GO:0006417)"
+    ],
+    [
+     5,
+     671,
+     "DNA Repair (GO:0006281)"
+    ],
+    [
+     11,
+     4576,
+     "ncRNA Processing (GO:0034470)"
+    ]
+   ],
+   "n_targets": 525,
+   "threeway_ratio": 0.5263963866385688,
+   "threeway_ratio_ci": [
+    0.5121100305236951,
+    0.5404280288784845
+   ],
+   "pairwise_ratios": {
+    "AB": 0.6048951482053725,
+    "AC": 0.7422842289022943,
+    "BC": 0.682490484357159
+   },
+   "pairwise_ratio_mean": 0.6907724004113585,
+   "n_subadditive": 510,
+   "n_additive": 15,
+   "n_superadditive": 0,
+   "superadditive_rate": 0.0,
+   "superadditive_rate_ci": [
+    0.0,
+    0.007264178914820618
+   ],
+   "higher_order_interaction_median": 0.18398393432970161,
+   "interaction_ci": [
+    0.16798804938095988,
+    0.20418202558801052
+   ],
+   "marginal_C_given_AB_median": 0.257430121337654
+  },
+  {
+   "type": "cross_pathway",
+   "pathway": "metabolism_x_translation_x_ddr",
+   "id": "L0_F2834_x_L5_F3797_x_L11_F3904",
+   "features": [
+    [
+     0,
+     2834,
+     "Fatty Acid Metabolic Process (GO:0006631)"
+    ],
+    [
+     5,
+     3797,
+     "Major Pathway Of rRNA Processing In Nucleolus And Cytosol R-HSA-6791226"
+    ],
+    [
+     11,
+     3904,
+     "DNA Repair (GO:0006281)"
+    ]
+   ],
+   "n_targets": 401,
+   "threeway_ratio": 0.5614953900450151,
+   "threeway_ratio_ci": [
+    0.5363885928268043,
+    0.5885083293257165
+   ],
+   "pairwise_ratios": {
+    "AB": 0.7091220091515518,
+    "AC": 0.6788734535024572,
+    "BC": 0.7281707605861849
+   },
+   "pairwise_ratio_mean": 0.7075313734972719,
+   "n_subadditive": 388,
+   "n_additive": 13,
+   "n_superadditive": 0,
+   "superadditive_rate": 0.0,
+   "superadditive_rate_ci": [
+    0.0,
+    0.009489143408187298
+   ],
+   "higher_order_interaction_median": 0.16555709535729243,
+   "interaction_ci": [
+    0.14755766553647925,
+    0.18036907539346736
+   ],
+   "marginal_C_given_AB_median": 0.0010882419328541726
+  },
+  {
+   "type": "random",
+   "pathway": "random",
+   "id": "L0_F3134_x_L5_F1686_x_L11_F2316",
+   "features": [
+    [
+     0,
+     3134,
+     "unannotated"
+    ],
+    [
+     5,
+     1686,
+     "Attachment Of Mitotic Spindle Microtubules To Kinetochore (GO:0051315)"
+    ],
+    [
+     11,
+     2316,
+     "Clathrin-mediated Endocytosis R-HSA-8856828"
+    ]
+   ],
+   "n_targets": 307,
+   "threeway_ratio": 0.5319945859744801,
+   "threeway_ratio_ci": [
+    0.5044596921193876,
+    0.5621500109075469
+   ],
+   "pairwise_ratios": {
+    "AB": 0.6534636292564847,
+    "AC": 0.7141469325465754,
+    "BC": 0.7113681340987721
+   },
+   "pairwise_ratio_mean": 0.6958141409613116,
+   "n_subadditive": 290,
+   "n_additive": 17,
+   "n_superadditive": 0,
+   "superadditive_rate": 0.0,
+   "superadditive_rate_ci": [
+    0.0,
+    0.012358706170602647
+   ],
+   "higher_order_interaction_median": 0.18148830041278552,
+   "interaction_ci": [
+    0.16133347146886573,
+    0.2103973598462252
+   ],
+   "marginal_C_given_AB_median": 0.11154395803473391
+  },
+  {
+   "type": "random",
+   "pathway": "random",
+   "id": "L0_F750_x_L5_F2270_x_L11_F1119",
+   "features": [
+    [
+     0,
+     750,
+     "DNA Repair (GO:0006281)"
+    ],
+    [
+     5,
+     2270,
+     "unannotated"
+    ],
+    [
+     11,
+     1119,
+     "unannotated"
+    ]
+   ],
+   "n_targets": 605,
+   "threeway_ratio": 0.5283277482916295,
+   "threeway_ratio_ci": [
+    0.4943367551766882,
+    0.5481700429484682
+   ],
+   "pairwise_ratios": {
+    "AB": 0.7072808447520439,
+    "AC": 0.7029586047637945,
+    "BC": 0.6938574674747903
+   },
+   "pairwise_ratio_mean": 0.7009939927652071,
+   "n_subadditive": 589,
+   "n_additive": 15,
+   "n_superadditive": 1,
+   "superadditive_rate": 0.001652892561983471,
+   "superadditive_rate_ci": [
+    0.00029182822756122166,
+    0.009302785543902486
+   ],
+   "higher_order_interaction_median": 0.18890950908211668,
+   "interaction_ci": [
+    0.1748870348084514,
+    0.20906202305470867
+   ],
+   "marginal_C_given_AB_median": 0.07364419916509604
+  },
+  {
+   "type": "random",
+   "pathway": "random",
+   "id": "L0_F1066_x_L5_F4204_x_L11_F3380",
+   "features": [
+    [
+     0,
+     1066,
+     "unannotated"
+    ],
+    [
+     5,
+     4204,
+     "unannotated"
+    ],
+    [
+     11,
+     3380,
+     "unannotated"
+    ]
+   ],
+   "n_targets": 173,
+   "threeway_ratio": 0.4912069837800353,
+   "threeway_ratio_ci": [
+    0.4647932680047294,
+    0.5425813108853874
+   ],
+   "pairwise_ratios": {
+    "AB": 0.6532545475074584,
+    "AC": 0.6287098768602875,
+    "BC": 0.664223001249881
+   },
+   "pairwise_ratio_mean": 0.6495517571118423,
+   "n_subadditive": 166,
+   "n_additive": 7,
+   "n_superadditive": 0,
+   "superadditive_rate": 0.0,
+   "superadditive_rate_ci": [
+    0.0,
+    0.021723395400177335
+   ],
+   "higher_order_interaction_median": 0.2693007507271954,
+   "interaction_ci": [
+    0.22245510905518265,
+    0.3028786263522782
+   ],
+   "marginal_C_given_AB_median": 0.09357763472861669
+  },
+  {
+   "type": "random",
+   "pathway": "random",
+   "id": "L0_F1918_x_L5_F2674_x_L11_F1835",
+   "features": [
+    [
+     0,
+     1918,
+     "unannotated"
+    ],
+    [
+     5,
+     2674,
+     "Protein Modification By Small Protein Conjugation (GO:0032446)"
+    ],
+    [
+     11,
+     1835,
+     "Metabolism Of Lipids R-HSA-556833"
+    ]
+   ],
+   "n_targets": 554,
+   "threeway_ratio": 0.6110511031436683,
+   "threeway_ratio_ci": [
+    0.592934418262235,
+    0.6315376849455199
+   ],
+   "pairwise_ratios": {
+    "AB": 0.5926082705039473,
+    "AC": 0.8016660952628754,
+    "BC": 0.7499523877112726
+   },
+   "pairwise_ratio_mean": 0.7286721630074371,
+   "n_subadditive": 506,
+   "n_additive": 48,
+   "n_superadditive": 0,
+   "superadditive_rate": 0.0,
+   "superadditive_rate_ci": [
+    0.0,
+    0.006886542703161613
+   ],
+   "higher_order_interaction_median": 0.17503903886584554,
+   "interaction_ci": [
+    0.1619828533198044,
+    0.1879743636589432
+   ],
+   "marginal_C_given_AB_median": 0.430584780169165
+  }
+ ],
+ "groups": {
+  "same_pathway": {
+   "n_triplets": 4,
+   "n_targets": 2603,
+   "median_threeway_ratio": 0.5444979136832211,
+   "median_pairwise_ratio": 0.7034712919998646,
+   "n_subadditive": 2500,
+   "n_additive": 102,
+   "n_superadditive": 1,
+   "superadditive_rate": 0.000384172109104879
+  },
+  "cross_pathway": {
+   "n_triplets": 4,
+   "n_targets": 2683,
+   "median_threeway_ratio": 0.5285629111004659,
+   "median_pairwise_ratio": 0.6947842382929308,
+   "n_subadditive": 2582,
+   "n_additive": 96,
+   "n_superadditive": 5,
+   "superadditive_rate": 0.0018635855385762206
+  },
+  "random": {
+   "n_triplets": 4,
+   "n_targets": 1639,
+   "median_threeway_ratio": 0.5301611671330548,
+   "median_pairwise_ratio": 0.6984040668632594,
+   "n_subadditive": 1551,
+   "n_additive": 87,
+   "n_superadditive": 1,
+   "superadditive_rate": 0.0006101281269066504
+  }
+ },
+ "superadditive_tests": {
+  "cross_pathway_vs_same_pathway": {
+   "odds_ratio": 4.858103061986557,
+   "p_value": 0.21880612278243536,
+   "table": [
+    [
+     5,
+     2678
+    ],
+    [
+     1,
+     2602
+    ]
+   ]
+  },
+  "cross_pathway_vs_random": {
+   "odds_ratio": 3.058252427184466,
+   "p_value": 0.41838686792994884,
+   "table": [
+    [
+     5,
+     2678
+    ],
+    [
+     1,
+     1638
+    ]
+   ]
+  },
+  "same_pathway_vs_random": {
+   "odds_ratio": 0.6295157571099155,
+   "p_value": 1.0,
+   "table": [
+    [
+     1,
+     2602
+    ],
+    [
+     1,
+     1638
+    ]
+   ]
+  }
+ }
+}

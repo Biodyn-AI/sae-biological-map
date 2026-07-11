@@ -1,69 +1,89 @@
-# Exhaustive Circuit Mapping of a Single-Cell Foundation Model
+# Exhaustive single-layer circuit mapping of a single-cell foundation model
 
 Code and results for the paper:
 
-> **Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive Redundancy, Heavy-Tailed Hub Architecture, and Layer-Dependent Differentiation Control**
+> **Exhaustive single-layer circuit mapping of a single-cell foundation model reveals massive redundancy, heavy-tailed hub architecture, and layer-dependent steering directionality**
 >
 > Ihor Kendiukhov
 >
-> Department of Computer Science, University of Tubingen, Germany
+> Department of Computer Science, University of Tübingen, Germany
 
 ## Overview
 
-This repository contains the analysis code and experimental results for three experiments that address systematic limitations in prior mechanistic interpretability work on single-cell foundation models:
+This repository contains the analysis code and experimental results for a mechanistic-interpretability study of Geneformer V2-316M, decomposed with layer-wise sparse autoencoders (SAEs). Three core experiments map and probe the model's feature-level circuit graph; a set of revision analyses (added during peer review) calibrate the edge-calling rule against an empirical null and stress-test every headline claim against explicit statistical or biological controls.
 
-1. **Exhaustive Feature Tracing** — Traces all 4,065 active sparse autoencoder (SAE) features at layer 5 of Geneformer V2-316M, yielding 1,393,850 significant downstream edges and revealing heavy-tailed hub architecture with systematic annotation bias.
+**Core experiments** (`src/`):
 
-2. **Higher-Order Combinatorial Ablation** — Extends pairwise ablation to three-way feature triplets (8 triplets, 7 conditions each), demonstrating that redundancy deepens monotonically with interaction order (three-way ratio 0.59 vs. pairwise 0.74) with zero synergy.
+1. **Exhaustive feature tracing** — traces all 4,065 active SAE features at layer 5 by causal ablation to downstream layers {6, 11, 17}, yielding 1,393,850 significant edges under the original criterion (≈1.1M after false-discovery control; see below).
+2. **Higher-order combinatorial ablation** — extends pairwise ablation to three-way feature triplets, quantifying how redundancy deepens with interaction order.
+3. **Trajectory-guided feature steering** — amplifies differentiation-associated "switch" features and measures the induced shift in the model's output.
 
-3. **Trajectory-Guided Feature Steering** — Causally tests 14 differentiation-associated switch features, establishing that late-layer features (L17) universally push cell states toward maturity while early/mid-layer features push away.
+**Revision analyses** (`src/revision/`) — the analyses that calibrate and bound the core results:
 
-## Repository Structure
+- **Edge-calling calibration** (`p1a`, `p1b`, `p1c`): re-trace retaining per-cell effects; sign-flip permutation null; empirical FDR, Benjamini–Hochberg control, a 6×5 threshold sweep, and a norm-matched specificity control.
+- **Expanded steering panel** (`p2`, `p2b`): 80 switch features (ON + OFF), dose–response, and three readouts independent of the pseudotime signature (a literature marker panel and two held-out probes).
+- **Extended triplets** (`p3`): same-pathway, cross-pathway and random triplets with bootstrap intervals.
+- **Degree-distribution fitting** (`p4`): Clauset–Shalizi–Newman power-law fit with likelihood-ratio comparison against lognormal / exponential / stretched-exponential / truncated power law.
+- **Annotation enrichment** (`p5`): formal Fisher / logistic tests and the degree–frequency confound.
+- **Hub importance** (`p6`): masked-LM damage from single-feature ablation vs random and frequency-matched controls.
+- **Generalization** (`p7`): tracing with a natively trained Tabula Sapiens SAE.
+- **Biological grounding** (`p9`): feature degree vs CRISPRi knockdown effect size.
+
+## Key results (calibrated)
+
+| Topic | Finding | Metric |
+|---|---|---|
+| **Edge calibration** | The uncalibrated `|d|>0.5`, consistency `>0.7` criterion has a measured false-discovery rate of **3.6%**; 79% of edges survive BH control. At `|d|>0.3` a third of the graph would be noise. | FDR 3.6%; ≈1.1M / 1,393,850 edges retained |
+| **Degree ≈ firing rate** | A feature's circuit degree is largely a restatement of its activation frequency. | Spearman ρ = 0.84 |
+| **Heavy-tailed, not scale-free** | Right-skewed, but formal fitting cannot distinguish a power law from lognormal/exponential. | power-law exponent α = 6.05 (157 tail points) |
+| **Annotation vs centrality** | Annotation does not predict centrality; L5 hubs are **not** annotation-depleted (60% vs 53.8% background), though L8/L14 hubs are. | Fisher OR = 1.29, p = 0.66 (L5) |
+| **Redundancy, not pathway-specific** | Redundancy deepens with order and equally for triplets sharing no pathway; synergy is rare and cross-pathway. | pairwise 0.70 → three-way 0.53; superadditive 0.087% |
+| **Feature-encoded direction** | Layer-17 ON-switch features shift a held-out maturity probe up (83% of cells); OFF-switch features shift it down (88%); direction is set by the feature, not the layer. | Mann–Whitney p = 0.0055 |
+| **Biological bound (null)** | Feature degree does not predict CRISPRi knockdown effect size in the same cell line. | ρ = 0.02 (n.s.) |
+
+Earlier framings that the revision superseded — "zero synergy", "scale-free", "hub fragility", "L17 universally drives maturation (3/3, fraction positive = 1.0)", and "40% of top-20 hubs unannotated, a bias" — are corrected in the paper and in `REPRODUCIBILITY.md`.
+
+## Repository structure
 
 ```
 sae-biological-map/
 ├── src/
-│   ├── sae_model.py                    # TopK sparse autoencoder model (d=1152, 4x expansion, k=32)
-│   ├── exhaustive_feature_tracing.py   # Experiment 1: exhaustive L5 circuit tracing
-│   ├── higher_order_ablation.py        # Experiment 2: three-way combinatorial ablation
-│   └── trajectory_steering.py          # Experiment 3: causal trajectory steering
+│   ├── sae_model.py                    # TopK SAE (d=1152, 4x expansion, k=32)
+│   ├── exhaustive_feature_tracing.py   # Core exp. 1: exhaustive L5 tracing
+│   ├── higher_order_ablation.py        # Core exp. 2: three-way ablation
+│   ├── trajectory_steering.py          # Core exp. 3: trajectory steering
+│   └── revision/                       # Peer-review revision analyses
+│       ├── p1a_retrace_with_deltas.py       # retrace keeping per-cell effects
+│       ├── p1b_null_fdr_thresholds.py       # permutation null, FDR, threshold sweep
+│       ├── p1c_normmatched_control.py       # norm-matched specificity control
+│       ├── p2_steering.py / p2b_readout_analysis.py   # expanded steering panel
+│       ├── p3_triplets_extended.py          # same/cross/random triplets
+│       ├── p4_tail_fitting.py               # power-law vs alternatives
+│       ├── p5_annotation_enrichment.py      # hub annotation enrichment tests
+│       ├── p6_hub_ablation_lm.py            # masked-LM hub importance
+│       ├── p7_ts_native_trace.py            # Tabula Sapiens-native SAE trace
+│       ├── p9_crispri_grounding.py          # CRISPRi grounding of degree
+│       └── make_figures.py                  # paper figures from result JSONs
 ├── results/
-│   ├── exhaustive_tracing/
-│   │   └── exhaustive_summary.json     # Summary statistics (1.39M edges, hub distribution)
-│   ├── higher_order_ablation/
-│   │   ├── summary.json                # Aggregate ablation results
-│   │   └── triplet_*.json              # Per-triplet detailed results (8 files)
-│   └── trajectory_steering/
-│       ├── summary.json                # Aggregate steering results
-│       ├── steering_F*_L*.json         # Per-feature steering results (14 files)
-│       └── state_signatures.npz        # Early/late pseudotime gene signatures
+│   ├── exhaustive_tracing/  higher_order_ablation/  trajectory_steering/   # core summaries
+│   └── revision/                       # calibration & revision result summaries (JSON)
 ├── paper/
-│   ├── manuscript.tex                  # LaTeX source
-│   ├── references.bib                  # Bibliography (63 entries)
-│   └── figures/                        # Figures 1-6
-├── requirements.txt
-├── LICENSE
-└── README.md
+│   ├── manuscript.tex  supplementary.tex  references.bib  figures/
+├── REPRODUCIBILITY.md                  # script → artifact → paper-object map, seeds, hashes
+├── requirements.txt   LICENSE   README.md
 ```
+
+The large inputs (SAE checkpoints, the Replogle and Tabula Sapiens `.h5ad` files, and the ≈2 GB of per-cell effect arrays that the calibration consumes) are **not** shipped in git owing to size. `results/` holds the small JSON summaries from which every figure and number is a pure function; see `REPRODUCIBILITY.md`.
 
 ## Prerequisites
 
 ### Data
-
-The following external datasets are required to reproduce the experiments:
-
 - **K562 CRISPRi perturbation data** (Replogle et al., 2022): [Figshare](https://plus.figshare.com/articles/dataset/Replogle_2022_K562_gwps/21452470)
-- **Tabula Sapiens immune subset** (The Tabula Sapiens Consortium, 2022): [CZ CELLxGENE](https://cellxgene.cziscience.com/collections/e5f58829-1a66-40b5-a624-9046778e74f5)
-- **Geneformer V2-316M** pretrained model (Theodoris et al., 2023): [HuggingFace](https://huggingface.co/ctheodoris/Geneformer)
+- **Tabula Sapiens immune subset** (The Tabula Sapiens Consortium, 2022): [CZ CELLxGENE](https://cellxgene.cziscience.com/)
+- **Geneformer V2-316M** (Theodoris et al., 2023): [HuggingFace](https://huggingface.co/ctheodoris/Geneformer)
 
 ### Upstream dependencies
-
-These experiments build on trained SAE models and extracted activations from a companion study ([Kendiukhov, 2025](https://github.com/Biodyn-AI/bio-sae)). You will need:
-
-- Trained SAE checkpoints (`sae_layer{N}.pt`) for each Geneformer layer
-- Extracted residual-stream activations (`layer_{N}_activations.npy`)
-- Circuit tracing results from prior causal patching (for Experiment 2)
-- Trajectory dynamics results from prior pseudotime analysis (for Experiment 3)
+The experiments build on trained layer-wise SAE checkpoints and extracted activations from the companion SAE-atlas study. Configure their location via environment variables (`SAE_PROJ_ROOT`, `SAE_BASE_ROOT`, `SAE_DATA_ROOT`, `SAE_DATA_PATH`) or edit the path constants at the top of each script.
 
 ## Installation
 
@@ -75,61 +95,35 @@ pip install -r requirements.txt
 
 ## Usage
 
-Configure data paths via environment variables or edit the path constants at the top of each script:
-
 ```bash
-export SAE_DATA_ROOT="/path/to/phase1_k562"      # SAE models and activations
-export SAE_DATA_PATH="/path/to/replogle_concat.h5ad"  # K562 CRISPRi data
+# Core experiments
+python src/exhaustive_feature_tracing.py --n-cells 20 --source-layer 5      # exhaustive L5 trace
+python src/higher_order_ablation.py --n-cells 200 --n-triplets 10           # three-way ablation
+python src/trajectory_steering.py --alphas 2.0,5.0 --n-cells 500            # trajectory steering
+
+# Revision analyses (see REPRODUCIBILITY.md for the full run order and I/O map)
+python src/revision/p1a_retrace_with_deltas.py --validate                   # verify retrace ≡ original
+python src/revision/p1a_retrace_with_deltas.py --priority-first             # retrace keeping per-cell effects
+python src/revision/p1b_null_fdr_thresholds.py --n-perm 500 --perm-subset 600  # permutation FDR + sweep
+python src/revision/p4_tail_fitting.py                                      # power-law model comparison
+python src/revision/p5_annotation_enrichment.py                            # annotation enrichment tests
+python src/revision/p9_crispri_grounding.py --pseudobulk --associate       # CRISPRi grounding
 ```
 
-### Experiment 1: Exhaustive Feature Tracing
+## Compute environment
 
-```bash
-python src/exhaustive_feature_tracing.py --n-cells 200 --source-layer 5
-```
-
-Traces all active features at layer 5 to downstream layers (L6, L11, L17). Outputs per-feature JSON files with resume support. Runtime: ~12 hours on Apple M2 Max.
-
-### Experiment 2: Higher-Order Ablation
-
-```bash
-python src/higher_order_ablation.py --n-cells 200 --n-triplets 10
-```
-
-Performs single, pairwise, and three-way ablation for 8 biologically motivated feature triplets. Runtime: ~2 hours.
-
-### Experiment 3: Trajectory Steering
-
-```bash
-python src/trajectory_steering.py --alphas 2.0,5.0 --n-cells 500
-```
-
-Amplifies 14 switch features in early-pseudotime immune cells and measures state shift toward maturity. Runtime: ~1 minute.
-
-## Key Results
-
-| Experiment | Key Finding | Main Metric |
-|---|---|---|
-| Exhaustive tracing | 27x more edges than selective sampling; 40% of top-20 hubs unannotated | 1,393,850 edges from 4,065 features |
-| Higher-order ablation | Redundancy deepens; zero synergy at all orders | Three-way ratio = 0.59 (vs. pairwise 0.74) |
-| Trajectory steering | L17 universally pushes toward maturity; L0/L11 push away | L17 fraction positive = 1.00 |
-
-## Compute Environment
-
-All experiments were run on a MacBook Pro with Apple M2 Max (38-core GPU, 96 GB unified memory) using PyTorch 2.1 with MPS backend. Total compute: ~26.3 hours.
+Experiments were run on an Apple M-series laptop GPU (MPS backend). The exhaustive re-trace is the only long job (~9 GPU-hours); the calibration, tail-fitting, annotation, and CRISPRi analyses are CPU-only and run in minutes from the deposited result summaries. Exact versions, checkpoint SHA-256 hashes, and every random seed are in `REPRODUCIBILITY.md`.
 
 ## Citation
 
-If you use this code or results, please cite:
-
 ```bibtex
 @article{kendiukhov2025exhaustive,
-  title={Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive Redundancy, Heavy-Tailed Hub Architecture, and Layer-Dependent Differentiation Control},
-  author={Kendiukhov, Ihor},
-  year={2025}
+  title  = {Exhaustive single-layer circuit mapping of a single-cell foundation model reveals massive redundancy, heavy-tailed hub architecture, and layer-dependent steering directionality},
+  author = {Kendiukhov, Ihor},
+  year   = {2026}
 }
 ```
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+MIT License. See [LICENSE](LICENSE).

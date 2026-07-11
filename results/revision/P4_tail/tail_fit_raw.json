@@ -1,0 +1,57 @@
+{
+ "tag": "L5 degree distribution (raw)",
+ "n": 4057,
+ "mean": 343.5666748829184,
+ "median": 284.0,
+ "max": 2138,
+ "powerlaw": {
+  "alpha": 6.052658799074539,
+  "xmin": 860,
+  "n_tail": 157,
+  "ks": 0.03419223897266077,
+  "gof_p": 0.945,
+  "plausible": true
+ },
+ "comparisons": {
+  "lognormal": {
+   "params": [
+    -11.685169969795425,
+    1.9306534690024435
+   ],
+   "loglik": -994.4854538214918,
+   "vuong_z": -0.08822176142497995,
+   "vuong_p": 0.9297004216347653,
+   "favored": "inconclusive"
+  },
+  "exponential": {
+   "params": [
+    0.004742284915037348
+   ],
+   "loglik": -996.9878979647654,
+   "vuong_z": 1.2137739868470203,
+   "vuong_p": 0.22483404240405658,
+   "favored": "inconclusive"
+  },
+  "stretched_exp": {
+   "params": [
+    2.2227879123771928,
+    0.29327289471524565
+   ],
+   "loglik": -994.63425451236,
+   "vuong_z": 0.2502604838901606,
+   "vuong_p": 0.8023859135647938,
+   "favored": "inconclusive"
+  },
+  "truncated_powerlaw": {
+   "params": [
+    5.526018604388825,
+    0.00040008562116386194
+   ],
+   "loglik": -994.4520240296977,
+   "vuong_z": -0.22646071802775666,
+   "vuong_p": 0.820843108099198,
+   "favored": "inconclusive"
+  }
+ },
+ "powerlaw_loglik": -994.4935680178614
+}

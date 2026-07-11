@@ -1,0 +1,20 @@
+{
+ "n_features": 2384,
+ "n_perturbations": 2023,
+ "spearman_edges_vs_strength": 0.021111424616691674,
+ "p": 0.3028385389240647,
+ "permutation_p": 0.436,
+ "null_rho_mean": 0.0034853628441432905,
+ "null_rho_sd": 0.026809686678142614,
+ "spearman_meanexpr_vs_strength": 0.08700007419983256,
+ "p_meanexpr": 2.102440423399878e-05,
+ "partial_spearman_edges_strength_given_freq_expr": -0.012639562419019403,
+ "p_partial": 0.5373382458910195,
+ "spearman_residual_degree_vs_strength": -0.02399537916955809,
+ "p_residual": 0.24153532072178055,
+ "hub_k": 43,
+ "hub_mean_strength": 37.04229483559904,
+ "nonhub_mean_strength": 35.53535563699429,
+ "mannwhitney_u": 56139.0,
+ "mannwhitney_p": 0.1941963160671052
+}
